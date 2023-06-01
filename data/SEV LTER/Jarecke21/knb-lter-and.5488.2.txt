@@ -1,0 +1,2644 @@
+
+  
+    
+      uid=AND,o=lter,dc=ecoinformatics,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    SP036
+    doi:10.6073/pasta/d4764b05a9aa95f7cfc5514dfcacc6a3Soil moisture and soil properties in Watershed 1 of the HJ Andrews Experimental Forest, 2016–2020
+    
+      Karla Jarecke
+      jareckek@gmail.com
+    
+    
+      Steven Wondzell
+      			Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way
+			Corvallis, OR 97331  USA
+      541-758-8753
+      steve.wondzell@usda.gov
+      https://www.fs.fed.us/pnw/lwm/aem/people/wondzell.html
+    
+    
+      Kevin Bladon
+      kevin.bladon@oregonstate.edu
+      http://fews.forestry.oregonstate.edu/
+    
+    
+      Steven Wondzell
+      			Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way
+			Corvallis, OR 97331  USA
+      541-758-8753
+      steve.wondzell@usda.gov
+      https://www.fs.fed.us/pnw/lwm/aem/people/wondzell.html
+      Principal Investigator
+    
+    
+      Kevin Bladon
+      kevin.bladon@oregonstate.edu
+      http://fews.forestry.oregonstate.edu/
+      Other Researcher
+    
+    
+      Karla Jarecke
+      jareckek@gmail.com
+      Creator
+    
+    
+      Steven Wondzell
+      			Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way
+			Corvallis, OR 97331  USA
+      541-758-8753
+      steve.wondzell@usda.gov
+      https://www.fs.fed.us/pnw/lwm/aem/people/wondzell.html
+      Creator
+    
+    
+      Kevin Bladon
+      kevin.bladon@oregonstate.edu
+      http://fews.forestry.oregonstate.edu/
+      Creator
+    
+    2021-04-05
+    
+      Soil water content was measured at 0–30 cm and 0–60 cm depth at 54 sites within a 10-ha north-facing forested slope of Watershed 1 on 14 dates from August 2016–October 2017. Soil properties were measured at 13 soil moisture sites during the summer of 2017. Soil properties include bulk density, percent sand, percent clay, percent silt, gravimetric rock content, volumetric water content at field capacity, volumetric water content at turgor loss point, and saturated hydraulic conductivity at 15 and 45 cm depth. Total soil depth and resistance to penetration were also measured at 38 sites using a dynamic cone penetrometer. Volumetric water content (VWC) and soil water potential were recorded every 30 min at 9 locations in Watershed 1. VWC sensors were installed at 5, 50, and 100 cm and soil water potential were installed at 50 cm at each location.
+    
+    
+      soil water content
+      time domain reflectometry
+      soil
+      forest ecosystems
+      LTER controlled vocabulary
+    
+      Related FilesTitle: Site Location MapDescription: Site location map categorized using the Topographic Position IndexURL: https://andrewsforest.oregonstate.edu/data/studies/sp036/sp036_site_location_map.pdf
+    
+      Data Use Agreement:
+ The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. This Data Set is released under the Creative Commons license CC BY "Attribution" (see: https://creativecommons.org/licenses/by/4.0/).   Creative Commons license CC BY - Attribution is a license that allows others to distribute, remix, tweak, and build upon your work (even commercially), as long as you are credited for the original creation.  This license accommodates maximum dissemination and use of licensed materials.
+It is considered professional conduct and an ethical obligation to acknowledge the work of other scientists. The Data User is asked to provide attribution of the original work if this data package is shared in whole or by individual parts or used in the derivation of other products.  A recommended citation is provided for each Data Set in the Andrews LTER data catalog (see: http://andlter.forestry.oregonstate.edu/data/catalog/datacatalog.aspx). A generic citation is also provided for this Data Set on the website https://portal.edirepository.org in the summary metadata page. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. 
+While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed and all data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. 
+General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 2025755), US Forest Service Pacific Northwest Research Station, and Oregon State University. 
+    
+      
+        http://andlter.forestry.oregonstate.edu/data/abstract.aspx?dbcode=SP036
+      
+    
+    
+      
+        Watershed 1, H.J. Andrews Experimental Forest
+        
+          -122.25563380
+          -122.25089480
+          44.20546220
+          44.20357538
+          
+            515
+            668
+            meter
+          
+        
+      
+      
+        
+          
+            2016-08-16
+          
+          
+            2017-10-15
+          
+        
+      
+    
+    
+      We designed our study to test if the redistribution of water, following surface topography, controlled the spatial patterns of soil moisture across a steep forested hillslope with well-drained soils.
+    
+    
+      
+        
+           An update history is logged and maintained with each new
+									version of every dataset. 
+        
+      
+      notPlanned
+      
+        Study code and preliminary metadata established
+        Version1
+        2017-05-19
+      
+      
+        Uploaded metadata from move_xls (Excel spreadsheet). Imported data from CSV. Ran QC. Uploaded to SQL.
+        Version2
+        2021-04-01
+      
+    
+    
+      Information Manager
+      			Andrews Forest LTER Program
+			US Forest Service Pacific Northwest Research Station
+			3200 SW Jefferson Way 
+			Corvallis, OR 97331  
+      hjaweb@fsl.orst.edu
+      http://andrewsforest.oregonstate.edu/
+    
+    
+    Environmental Data Initiativeinfo@environmentaldatainitiative.orghttps://environmentaldatainitiative.orgEnvironmental Data Initiative
+      
+        
+          Field Methods - SP036
+          Soil volumetric water content (VWC) was measured at 54 sites using time domain reflectometry (TDR; model No. 1502C, Tektronix Inc., Beaverton, OR). VWC was measured over two mineral soil layers, 0–30 and 0–60 cm. Measurements points were replicated at each site so there were two VWC measurements for each depth. A measurement point consisted of a pair of TDR rods installed vertically, 5 cm apart, in mineral soil. The replicate measurement points were, on average, 2.5 m apart and the measurement volume of each point was 30 cm or 60 cm deep and 10 cm in diameter (Topp et al. 1980). The reflection trace was converted from TDR to VWC using a calibration equation developed in a nearby watershed (Gray  &  Spies, 1995). VWC was estimated at 30-60 cm using the VWC from adjacent 0-30 and 0-60 cm probes after accounting for differences in volume sampled:  VWC(30-60cm)  =2 × VWC(0-60cm)  - VWC(0-30cm). The sensitivity of the instrument was 0.01 cm3/cm3 as determined from repeat measurements less than one minute apart.
+Soils were collected by digging a shallow pit and exposing an undisturbed soil face. Soils overlying each sampling depth, 15 and 45 cm, were removed and a 250 cm3 metal cylinder (5 cm tall and 8 cm diameter) was pounded vertically into the soil. Saturated hydraulic conductivity (Ks) was measured in the laboratory using the falling head method on the KSAT device (METER Group Inc.). The Ks was averaged from five repeated measurements from each soil core. Soils from individual cores were subsequently dried at 105 deg C for 24 hours and the oven-dried weight was divided by the sample volume to determine the bulk density. The dried soil sample was used to quantify gravimetric coarse content and particle size. Coarse material consisted of 2-5 mm rock fragments, weathered saprolite fragments, roots, and wood. The sample was placed  in a mortar and lightly tapped with a pestle to break soil aggregates but preserve saprolite fragments. The sample was then passed through a 2 mm sieve to remove coarse material, including saprolite fragments. The sieved soil was mixed, a 5-7 g subsample was collected, and then organic carbon was removed from the subsample using the hydrogen peroxide method (Mikutta et al., 2005). The subsample was sent to the Critical Zone Lab at Virginia Tech for particle size analysis using laser diffractometry on a CILAS 1190 laser particle size analyzer (Miller  &  Schaetzl, 2012).
+Depth to bedrock was measured at 38 sites using a dynamic cone penetrometer, which is also known as a knocking pole (Shanley et al., 2003; Yoshinaga  &  Ohnuki, 1995). The pole consisted of 0.5 m graduated steel rod segments and a 20 mm long and 24 mm diameter cone tip, which was driven into the soil by repeated drops of a 5 kg weight onto a platform threaded on the upper segment of the pole. When the resistance to penetration became large (moving less than 1 cm in 15 or more knocks), it was assumed the cone tip had reached bedrock. Soil depth to bedrock was calculated at each site from the average of 2-3 repeat measurements taken approximately 5-10 m apart.
+All soil sensors were purchased from METER Environment. Dielectric permittivity was measured at 5 and 50 cm using the 5TM water content and temperature sensor and at 100 cm using the TEROS 12 water content, temperature, and conductivity sensor. VWC was calculated from dielectric permittivity using the manufacturer’s equation, which follows Topp et al. (1980). Soil water potential was measured at 50 cm using the TEROS 21 water potential and temperature sensor. A small soil pit was dug to expose an undisturbed soil profile and sensors installed horizontally at 5 and 50 cm. To install the VWC sensor at 100 cm, a hole was augured and the TEROS borehole installation tool (METER Environment) used to insert the sensor probes horizontally into undisturbed soil at 100 cm. 
+      
+      
+        
+          
+            Our study was located in Watershed 1, a 96-ha catchment at the H. J. Andrews Experimental Forest on the west slope of the central Cascade Mountains of Oregon, USA (44°12’18.8” N, 122°15’16.2” W). The average elevation of the study area is 576 m and the average slope is 37 degrees. The study catchment was 100 % clearcut from 1962–1966 and logging residues were burned in 1966 to expose a mineral soil seedbed. There were several efforts to re-establish vegetation in the watershed. The watershed was aerially seeded with Douglas-fir (Pseudotsuga menziesii) in 1967 and 10 ha were re-seeded in 1968. In 1969, 2-yr-old Douglas-fir trees were planted across the entire watershed, and in 1971, 40 ha were re-planted with 2- and 3-yr-old trees (Halpern, 1988). Forty to fifty-year-old Douglas-fir trees dominate the overstory. While much less common, both bigleaf maple (Acer macrophyllum) and western hemlock (Tsuga heterophylla) are also present. The understory includes vine maple (Acer circinatum), Oregon grape (Mahonia aquifolium), and sword fern (Polystichum munitum).
+The average depth of the forest floor and organic horizon was 5 cm at our soil measurement points. Mineral soil in the top 100 cm was generally gravelly, silty clay loam with developed A and B horizons, which had gradual and poorly defined boundaries. Soils were underlain by unconsolidated, highly weathered saprolite and fractured bedrock (Gabrielli et al. 2012). Soil thickness ranged from 20 cm to more than 5 m. Parent materials primarily include tuffs and breccias, but basalts and andesites are also present (Halpern, 1988). 
+The regional climate is characterized by cool, wet winters and warm, dry summers. During the period of study, from August 2016 to October 2017, the site received 2,833 mm of rainfall, which was slightly more than the long-term average. The average rainfall total during the 15-month period from August to October during 1979–2015 was 2,450 mm, the maximum total rainfall was 3,512 mm and minimum was 1,607 mm (Daly et al., 2019). The spatial variability of rainfall interception can create differences in VWC if measured under the canopy or under gaps in the canopy (Gray et al., 2002). Thus, we avoided locations under large canopy gaps when establishing soil moisture monitoring sites to minimize differences in VWC associated with interception. 
+        
+        
+          Fifty-four permanent monitoring sites were established in July 2016 along alternating convergent and divergent hillslopes within a 10-ha north-facing forested slope of Watershed 1 of the HJ Andrews Experimental Forest. A map of classified Topographic Position Index (TPI) was used to guide the placement of soil monitoring sites. TPI was estimated from a 1x1 m digital elevation model by subtracting the elevation of a grid cell from the mean elevation of all cells within a 30 m radius (Jenness, 2006). Positive TPI values represented divergent slope positions where the elevation of a pixel was high relative to the average surrounding locations. Conversely, negative TPI values represented convergent slope positions where the elevation of a pixel was low relative to surroundings. Locations where TPI was close to zero were relatively planar. Individual hillslopes were distinguished by a switch between negative and positive TPI along the same elevation contour. 
+Fourteen surveys were conducted to investigate the effect of topography on soil water content using time domain reflectometry at 0–30 cm and 0–60 cm depth. Soil moisture surveys were preformed from August–October 2016 and April–October 2017. These data include volumetric water content and date. Soil properties (bulk density, percent sand, percent clay, percent silt, gravimetric rock content, water retention, and saturated hydraulic conductivity) were measured at 15 and 45 cm depth at 13 sites during the summer of 2017. Total soil depth and resistance to penetration were measured at 38 sites using a dynamic cone penetrometer.
+							Citation:
+							 
+							Jenness, J. (2006). Topographic Position Index (tpi_jen.avx) Extension for ArcView. Jenness Enterprises.
+        
+          
+            Andrews Experimental Forest (HJA)
+            
+              -122.26172200
+              -122.10084700
+              44.28196400
+              44.19770400
+              
+                1631
+                1631
+                meter
+              
+            
+          
+          
+            Andrews Watershed  1
+            
+              -122.25683100
+              -122.23581300
+              44.20851700
+              44.19901700
+              
+                1027
+                1027
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network sites
+            
+              -122.25563380
+              -122.25089480
+              44.20546220
+              44.20357538
+              
+                668
+                668
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect A, ridge, plot 2
+            
+              -122.25543770
+              -122.25543770
+              44.20531840
+              44.20531840
+              
+                533
+                533
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect A, ridge, plot 3
+            
+              -122.25563380
+              -122.25563380
+              44.20511051
+              44.20511051
+              
+                552
+                552
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect C, ridge, plot 1
+            
+              -122.25496520
+              -122.25496520
+              44.20509200
+              44.20509200
+              
+                543
+                543
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect C, ridge, plot 2
+            
+              -122.25497240
+              -122.25497240
+              44.20489314
+              44.20489314
+              
+                560
+                560
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect C, ridge, plot 3
+            
+              -122.25486210
+              -122.25486210
+              44.20469173
+              44.20469173
+              
+                578
+                578
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect D, hollow, plot 0
+            
+              -122.25472450
+              -122.25472450
+              44.20513408
+              44.20513408
+              
+                539
+                539
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect D, hollow, plot 1
+            
+              -122.25466040
+              -122.25466040
+              44.20497332
+              44.20497332
+              
+                551
+                551
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect D, hollow, plot 2
+            
+              -122.25460350
+              -122.25460350
+              44.20465565
+              44.20465565
+              
+                574
+                574
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect E, ridge, plot 1
+            
+              -122.25452300
+              -122.25452300
+              44.20508635
+              44.20508635
+              
+                547
+                547
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect E, ridge, plot 2
+            
+              -122.25439560
+              -122.25439560
+              44.20488424
+              44.20488424
+              
+                563
+                563
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect E, ridge, plot 3
+            
+              -122.25428180
+              -122.25428180
+              44.20461458
+              44.20461458
+              
+                584
+                584
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, plot 0
+            
+              -122.25394990
+              -122.25394990
+              44.20504015
+              44.20504015
+              
+                550
+                550
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, plot 1
+            
+              -122.25381940
+              -122.25381940
+              44.20487475
+              44.20487475
+              
+                565
+                565
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, plot Z1
+            
+              -122.25400860
+              -122.25400860
+              44.20542317
+              44.20542317
+              
+                518
+                518
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, tree plot Z1
+            
+              -122.25399570
+              -122.25399570
+              44.20544816
+              44.20544816
+              
+                515
+                515
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, plot Z2
+            
+              -122.25400540
+              -122.25400540
+              44.20514136
+              44.20514136
+              
+                542
+                542
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, tree plot Z2
+            
+              -122.25405930
+              -122.25405930
+              44.20505612
+              44.20505612
+              
+                548
+                548
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, plot Z3
+            
+              -122.25393670
+              -122.25393670
+              44.20494363
+              44.20494363
+              
+                557
+                557
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, tree plot Z3
+            
+              -122.25394640
+              -122.25394640
+              44.20488890
+              44.20488890
+              
+                561
+                561
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, plot Z4
+            
+              -122.25387940
+              -122.25387940
+              44.20544566
+              44.20544566
+              
+                518
+                518
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, plot Z5
+            
+              -122.25392920
+              -122.25392920
+              44.20506780
+              44.20506780
+              
+                549
+                549
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect F, hollow, plot Z6
+            
+              -122.25380070
+              -122.25380070
+              44.20485586
+              44.20485586
+              
+                566
+                566
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect G, ridge, plot 2
+            
+              -122.25366150
+              -122.25366150
+              44.20485699
+              44.20485699
+              
+                570
+                570
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect G, ridge, plot 3
+            
+              -122.25352340
+              -122.25352340
+              44.20453186
+              44.20453186
+              
+                591
+                591
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect G, hollow, plot Z1
+            
+              -122.25380550
+              -122.25380550
+              44.20546225
+              44.20546225
+              
+                520
+                520
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect G, hollow, plot Z2
+            
+              -122.25382000
+              -122.25382000
+              44.20508997
+              44.20508997
+              
+                549
+                549
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect G, hollow, plot Z3
+            
+              -122.25367790
+              -122.25367790
+              44.20472974
+              44.20472974
+              
+                578
+                578
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect H, hollow, plot 1
+            
+              -122.25316930
+              -122.25316930
+              44.20473914
+              44.20473914
+              
+                568
+                568
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect H, hollow, plot 2
+            
+              -122.25320600
+              -122.25320600
+              44.20455258
+              44.20455258
+              
+                581
+                581
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect H, hollow, plot 3
+            
+              -122.25322320
+              -122.25322320
+              44.20421521
+              44.20421521
+              
+                605
+                605
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect H, hollow, plot 4
+            
+              -122.25289910
+              -122.25289910
+              44.20392892
+              44.20392892
+              
+                629
+                629
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect H, hollow, plot 5
+            
+              -122.25296170
+              -122.25296170
+              44.20357538
+              44.20357538
+              
+                653
+                653
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect I, ridge, plot 1
+            
+              -122.25289520
+              -122.25289520
+              44.20495823
+              44.20495823
+              
+                556
+                556
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect I, ridge, plot 2
+            
+              -122.25279540
+              -122.25279540
+              44.20483171
+              44.20483171
+              
+                567
+                567
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect I, ridge, plot 3
+            
+              -122.25285280
+              -122.25285280
+              44.20428202
+              44.20428202
+              
+                611
+                611
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect I, ridge, plot 4
+            
+              -122.25242370
+              -122.25242370
+              44.20375735
+              44.20375735
+              
+                657
+                657
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect J, hollow, plot 0
+            
+              -122.25236520
+              -122.25236520
+              44.20477472
+              44.20477472
+              
+                570
+                570
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect J, hollow, plot 1
+            
+              -122.25231750
+              -122.25231750
+              44.20394273
+              44.20394273
+              
+                642
+                642
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect J, hollow, plot 2
+            
+              -122.25189940
+              -122.25189940
+              44.20365471
+              44.20365471
+              
+                668
+                668
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot 1
+            
+              -122.25173050
+              -122.25173050
+              44.20483075
+              44.20483075
+              
+                569
+                569
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot 2
+            
+              -122.25169840
+              -122.25169840
+              44.20470937
+              44.20470937
+              
+                578
+                578
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot 3
+            
+              -122.25165580
+              -122.25165580
+              44.20461056
+              44.20461056
+              
+                586
+                586
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot 4
+            
+              -122.25157530
+              -122.25157530
+              44.20434847
+              44.20434847
+              
+                610
+                610
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot 5
+            
+              -122.25145130
+              -122.25145130
+              44.20403766
+              44.20403766
+              
+                640
+                640
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot Z1
+            
+              -122.25179390
+              -122.25179390
+              44.20521483
+              44.20521483
+              
+                538
+                538
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, tree plot Z1
+            
+              -122.25179980
+              -122.25179980
+              44.20521725
+              44.20521725
+              
+                538
+                538
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot Z2
+            
+              -122.25176870
+              -122.25176870
+              44.20499699
+              44.20499699
+              
+                556
+                556
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, tree plot Z2
+            
+              -122.25170430
+              -122.25170430
+              44.20495763
+              44.20495763
+              
+                559
+                559
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot Z3
+            
+              -122.25162530
+              -122.25162530
+              44.20473925
+              44.20473925
+              
+                576
+                576
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, tree plot Z3
+            
+              -122.25159230
+              -122.25159230
+              44.20472466
+              44.20472466
+              
+                578
+                578
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot Z4
+            
+              -122.25157580
+              -122.25157580
+              44.20457119
+              44.20457119
+              
+                591
+                591
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, tree plot Z4
+            
+              -122.25157260
+              -122.25157260
+              44.20436711
+              44.20436711
+              
+                609
+                609
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot Z5
+            
+              -122.25159660
+              -122.25159660
+              44.20505721
+              44.20505721
+              
+                556
+                556
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, tree plot Z5
+            
+              -122.25151810
+              -122.25151810
+              44.20505955
+              44.20505955
+              
+                559
+                559
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot Z6
+            
+              -122.25143770
+              -122.25143770
+              44.20479659
+              44.20479659
+              
+                579
+                579
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, tree plot Z6
+            
+              -122.25143590
+              -122.25143590
+              44.20479940
+              44.20479940
+              
+                579
+                579
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, plot Z7
+            
+              -122.25143400
+              -122.25143400
+              44.20456879
+              44.20456879
+              
+                596
+                596
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect L, hollow, tree plot Z7
+            
+              -122.25142230
+              -122.25142230
+              44.20456402
+              44.20456402
+              
+                596
+                596
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect M, ridge, plot 1
+            
+              -122.25109770
+              -122.25109770
+              44.20483707
+              44.20483707
+              
+                580
+                580
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect M, ridge, plot 2
+            
+              -122.25089480
+              -122.25089480
+              44.20437010
+              44.20437010
+              
+                617
+                617
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect M, ridge, plot 3
+            
+              -122.25106100
+              -122.25106100
+              44.20398694
+              44.20398694
+              
+                649
+                649
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect M, hollow, plot Z1
+            
+              -122.25119360
+              -122.25119360
+              44.20498482
+              44.20498482
+              
+                568
+                568
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect M, hollow, plot Z2
+            
+              -122.25123570
+              -122.25123570
+              44.20469670
+              44.20469670
+              
+                589
+                589
+                meter
+              
+            
+          
+          
+            Watershed 1 soil moisture network transect M, hollow, plot Z3
+            
+              -122.25108440
+              -122.25108440
+              44.20452152
+              44.20452152
+              
+                605
+                605
+                meter
+              
+            
+          
+        
+      
+    
+    
+      Long-Term Ecological Research
+      
+        Sherri Johnson
+        			US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way
+			Corvallis, OR 97331  USA
+        541-758-7771
+        sherri.johnson2@usda.gov
+        sherri.johnson@oregonstate.edu
+        https://www.fs.fed.us/research/people/profile.php?alias=sherrijohnson
+        Principal Investigator
+      
+      
+        Julia Jones
+        			Oregon State University;Department of Geosciences; Wilkinson Hall 104
+			Corvallis, OR 97331-5506  USA
+        (541) 737-1224
+        Julia.Jones@oregonstate.edu
+        geojulia@comcast.net
+        http://ceoas.oregonstate.edu/profile/jones/
+        http://orcid.org/0000-0001-9429-8925
+        Principal Investigator
+      
+      
+        Matthew Betts
+        			Department of Forest Ecosystems and Society; 201E Richardson Hall; College of Forestry; Oregon State University
+			Corvallis, OR 97331  
+        (541) 737-3841
+        matt.betts@oregonstate.edu
+        http://www.fsl.orst.edu/flel/index.htm
+        Principal Investigator
+      
+      
+        Michael Nelson
+        			Department of Forest Ecosystems and Society; 201K Richarson Hall; College of Forestry; Oregon State University
+			Corvallis, OR 97331  
+        541-737-9221
+        mpnelson@oregonstate.edu
+        http://www.michaelpnelson.com
+        http://orcid.org/0000-0001-6917-4752
+        Principal Investigator
+      
+      
+        David Bell
+        david.bell@usda.gov
+        david.bell@oregonstate.edu
+        https://lemma.forestry.oregonstate.edu/about/david-bell
+        Principal Investigator
+      
+      
+        The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics. 
+
+Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. 
+
+The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.
+      Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 2025755), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB1440409
+      
+        
+          The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.
+        
+      
+    
+    
+      1
+      sp03601
+      Soil moisture (coarse temporal resolution): 
+      
+        sp03601.csv
+        115067
+        bc5550d8d9ea7f5b1599edc677a7a622
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-and/5488/2/05bdaee022fac0db90d6ec2112c65875
+          
+        
+      
+      
+        
+          
+            
+              2016-08-16
+            
+            
+              2017-10-15
+            
+          
+        
+      
+      
+        
+          DBCODE
+          FSDB Database Code
+          char(5)
+          
+            
+              
+                
+                  
+                    SP036
+                    FSDB Database Study Code
+                  
+                
+              
+            
+          
+        
+        
+          ENTITY
+          Entity number
+          numeric(2,0)
+          
+            
+              
+                number
+              
+              1
+              
+                natural
+                
+                  1.0000
+                  1.0000
+                
+              
+            
+          
+        
+        
+          SITE
+          site name
+          char(4)
+          
+            
+              
+                
+                  
+                    AR2
+                    Watershed 1 soil moisture network transect A, ridge, plot 2
+                  
+                  
+                    AR3
+                    Watershed 1 soil moisture network transect A, ridge, plot 3
+                  
+                  
+                    CR1
+                    Watershed 1 soil moisture network transect C, ridge, plot 1
+                  
+                  
+                    CR2
+                    Watershed 1 soil moisture network transect C, ridge, plot 2
+                  
+                  
+                    CR3
+                    Watershed 1 soil moisture network transect C, ridge, plot 3
+                  
+                  
+                    DH0
+                    Watershed 1 soil moisture network transect D, hollow, plot 0
+                  
+                  
+                    DH1
+                    Watershed 1 soil moisture network transect D, hollow, plot 1
+                  
+                  
+                    DH2
+                    Watershed 1 soil moisture network transect D, hollow, plot 2
+                  
+                  
+                    ER1
+                    Watershed 1 soil moisture network transect E, ridge, plot 1
+                  
+                  
+                    ER2
+                    Watershed 1 soil moisture network transect E, ridge, plot 2
+                  
+                  
+                    ER3
+                    Watershed 1 soil moisture network transect E, ridge, plot 3
+                  
+                  
+                    FH0
+                    Watershed 1 soil moisture network transect F, hollow, plot 0
+                  
+                  
+                    FH1
+                    Watershed 1 soil moisture network transect F, hollow, plot 1
+                  
+                  
+                    FZ1
+                    Watershed 1 soil moisture network transect F, hollow, plot Z1
+                  
+                  
+                    FZ1T
+                    Watershed 1 soil moisture network transect F, hollow, tree plot Z1
+                  
+                  
+                    FZ2
+                    Watershed 1 soil moisture network transect F, hollow, plot Z2
+                  
+                  
+                    FZ2T
+                    Watershed 1 soil moisture network transect F, hollow, tree plot Z2
+                  
+                  
+                    FZ3
+                    Watershed 1 soil moisture network transect F, hollow, plot Z3
+                  
+                  
+                    FZ3T
+                    Watershed 1 soil moisture network transect F, hollow, tree plot Z3
+                  
+                  
+                    FZ4
+                    Watershed 1 soil moisture network transect F, hollow, plot Z4
+                  
+                  
+                    FZ5
+                    Watershed 1 soil moisture network transect F, hollow, plot Z5
+                  
+                  
+                    FZ6
+                    Watershed 1 soil moisture network transect F, hollow, plot Z6
+                  
+                  
+                    GR2
+                    Watershed 1 soil moisture network transect G, ridge, plot 2
+                  
+                  
+                    GR3
+                    Watershed 1 soil moisture network transect G, ridge, plot 3
+                  
+                  
+                    GZ1
+                    Watershed 1 soil moisture network transect G, hollow, plot Z1
+                  
+                  
+                    GZ2
+                    Watershed 1 soil moisture network transect G, hollow, plot Z2
+                  
+                  
+                    GZ3
+                    Watershed 1 soil moisture network transect G, hollow, plot Z3
+                  
+                  
+                    HH1
+                    Watershed 1 soil moisture network transect H, hollow, plot 1
+                  
+                  
+                    HH2
+                    Watershed 1 soil moisture network transect H, hollow, plot 2
+                  
+                  
+                    HH3
+                    Watershed 1 soil moisture network transect H, hollow, plot 3
+                  
+                  
+                    HH4
+                    Watershed 1 soil moisture network transect H, hollow, plot 4
+                  
+                  
+                    HH5
+                    Watershed 1 soil moisture network transect H, hollow, plot 5
+                  
+                  
+                    IR1
+                    Watershed 1 soil moisture network transect I, ridge, plot 1
+                  
+                  
+                    IR2
+                    Watershed 1 soil moisture network transect I, ridge, plot 2
+                  
+                  
+                    IR3
+                    Watershed 1 soil moisture network transect I, ridge, plot 3
+                  
+                  
+                    IR4
+                    Watershed 1 soil moisture network transect I, ridge, plot 4
+                  
+                  
+                    JH0
+                    Watershed 1 soil moisture network transect J, hollow, plot 0
+                  
+                  
+                    JH1
+                    Watershed 1 soil moisture network transect J, hollow, plot 1
+                  
+                  
+                    JH2
+                    Watershed 1 soil moisture network transect J, hollow, plot 2
+                  
+                  
+                    LH1
+                    Watershed 1 soil moisture network transect L, hollow, plot 1
+                  
+                  
+                    LH2
+                    Watershed 1 soil moisture network transect L, hollow, plot 2
+                  
+                  
+                    LH3
+                    Watershed 1 soil moisture network transect L, hollow, plot 3
+                  
+                  
+                    LH4
+                    Watershed 1 soil moisture network transect L, hollow, plot 4
+                  
+                  
+                    LH5
+                    Watershed 1 soil moisture network transect L, hollow, plot 5
+                  
+                  
+                    LZ1
+                    Watershed 1 soil moisture network transect L, hollow, plot Z1
+                  
+                  
+                    LZ1T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z1
+                  
+                  
+                    LZ2
+                    Watershed 1 soil moisture network transect L, hollow, plot Z2
+                  
+                  
+                    LZ2T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z2
+                  
+                  
+                    LZ3
+                    Watershed 1 soil moisture network transect L, hollow, plot Z3
+                  
+                  
+                    LZ3T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z3
+                  
+                  
+                    LZ4
+                    Watershed 1 soil moisture network transect L, hollow, plot Z4
+                  
+                  
+                    LZ4T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z4
+                  
+                  
+                    LZ5
+                    Watershed 1 soil moisture network transect L, hollow, plot Z5
+                  
+                  
+                    LZ5T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z5
+                  
+                  
+                    LZ6
+                    Watershed 1 soil moisture network transect L, hollow, plot Z6
+                  
+                  
+                    LZ6T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z6
+                  
+                  
+                    LZ7
+                    Watershed 1 soil moisture network transect L, hollow, plot Z7
+                  
+                  
+                    LZ7T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z7
+                  
+                  
+                    MR1
+                    Watershed 1 soil moisture network transect M, ridge, plot 1
+                  
+                  
+                    MR2
+                    Watershed 1 soil moisture network transect M, ridge, plot 2
+                  
+                  
+                    MR3
+                    Watershed 1 soil moisture network transect M, ridge, plot 3
+                  
+                  
+                    MZ1
+                    Watershed 1 soil moisture network transect M, hollow, plot Z1
+                  
+                  
+                    MZ2
+                    Watershed 1 soil moisture network transect M, hollow, plot Z2
+                  
+                  
+                    MZ3
+                    Watershed 1 soil moisture network transect M, hollow, plot Z3
+                  
+                
+              
+            
+          
+        
+        
+          REP
+          replicate
+          char(2)
+          
+            
+              
+                
+                  
+                    1
+                    first replicate
+                  
+                  
+                    2
+                    second replicate
+                  
+                  
+                    3
+                    third replicate
+                  
+                  
+                    4
+                    fourth replicate
+                  
+                
+              
+            
+          
+        
+        
+          LAYER
+          mineral soil layer
+          char(10)
+          
+            
+              
+                
+                  
+                    0-30 cm
+                    mineral soil layer 0 to 30 cm depth
+                  
+                  
+                    30-60 cm
+                    mineral soil layer 30 to 60 cm depth
+                  
+                
+              
+            
+          
+        
+        
+          DATE
+          measurement date
+          datetime
+          
+            
+              YYYY-MM-DD
+              
+                
+                  8/16/2016 12:00:00 AM
+                  10/15/2017 12:00:00 AM
+                
+              
+            
+          
+        
+        
+          VWC
+          volumetric water content
+          numeric(5,3)
+          
+            
+              
+                cubic centimeters per cubic centimeter
+              
+              1
+              
+                real
+                
+                  0.0950
+                  0.6120
+                
+              
+            
+          
+        
+      
+      
+        
+          PRIMARY
+          
+            sp03601.DATE
+            sp03601.LAYER
+            sp03601.REP
+            sp03601.SITE
+          
+        
+      
+      
+        
+          NOTNULL
+          
+            sp03601.DATE
+            sp03601.DBCODE
+            sp03601.ENTITY
+            sp03601.LAYER
+            sp03601.REP
+            sp03601.SITE
+            sp03601.VWC
+          
+        
+      
+      2710
+    
+    
+      2
+      sp03602
+      Soil physical properties: 
+      
+        sp03602.csv
+        1712
+        52382af14ba6c5a71f758f87e304278c
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-and/5488/2/2c8e2d10a1299ccd3aae6c35ec3860ff
+          
+        
+      
+      
+        
+          
+            
+              2017-07-18
+            
+            
+              2017-09-13
+            
+          
+        
+      
+      
+        
+          DBCODE
+          FSDB Database Code
+          char(5)
+          
+            
+              
+                
+                  
+                    SP036
+                    FSDB Database Study Code
+                  
+                
+              
+            
+          
+        
+        
+          ENTITY
+          Entity number
+          numeric(2,0)
+          
+            
+              
+                number
+              
+              1
+              
+                natural
+                
+                  2.0000
+                  2.0000
+                
+              
+            
+          
+        
+        
+          SITE
+          site name
+          char(4)
+          
+            
+              
+                
+                  
+                    AR2
+                    Watershed 1 soil moisture network transect A, ridge, plot 2
+                  
+                  
+                    AR3
+                    Watershed 1 soil moisture network transect A, ridge, plot 3
+                  
+                  
+                    CR1
+                    Watershed 1 soil moisture network transect C, ridge, plot 1
+                  
+                  
+                    CR2
+                    Watershed 1 soil moisture network transect C, ridge, plot 2
+                  
+                  
+                    CR3
+                    Watershed 1 soil moisture network transect C, ridge, plot 3
+                  
+                  
+                    DH0
+                    Watershed 1 soil moisture network transect D, hollow, plot 0
+                  
+                  
+                    DH1
+                    Watershed 1 soil moisture network transect D, hollow, plot 1
+                  
+                  
+                    DH2
+                    Watershed 1 soil moisture network transect D, hollow, plot 2
+                  
+                  
+                    ER1
+                    Watershed 1 soil moisture network transect E, ridge, plot 1
+                  
+                  
+                    ER2
+                    Watershed 1 soil moisture network transect E, ridge, plot 2
+                  
+                  
+                    ER3
+                    Watershed 1 soil moisture network transect E, ridge, plot 3
+                  
+                  
+                    FH0
+                    Watershed 1 soil moisture network transect F, hollow, plot 0
+                  
+                  
+                    FH1
+                    Watershed 1 soil moisture network transect F, hollow, plot 1
+                  
+                  
+                    FZ1
+                    Watershed 1 soil moisture network transect F, hollow, plot Z1
+                  
+                  
+                    FZ1T
+                    Watershed 1 soil moisture network transect F, hollow, tree plot Z1
+                  
+                  
+                    FZ2
+                    Watershed 1 soil moisture network transect F, hollow, plot Z2
+                  
+                  
+                    FZ2T
+                    Watershed 1 soil moisture network transect F, hollow, tree plot Z2
+                  
+                  
+                    FZ3
+                    Watershed 1 soil moisture network transect F, hollow, plot Z3
+                  
+                  
+                    FZ3T
+                    Watershed 1 soil moisture network transect F, hollow, tree plot Z3
+                  
+                  
+                    FZ4
+                    Watershed 1 soil moisture network transect F, hollow, plot Z4
+                  
+                  
+                    FZ5
+                    Watershed 1 soil moisture network transect F, hollow, plot Z5
+                  
+                  
+                    FZ6
+                    Watershed 1 soil moisture network transect F, hollow, plot Z6
+                  
+                  
+                    GR2
+                    Watershed 1 soil moisture network transect G, ridge, plot 2
+                  
+                  
+                    GR3
+                    Watershed 1 soil moisture network transect G, ridge, plot 3
+                  
+                  
+                    GZ1
+                    Watershed 1 soil moisture network transect G, hollow, plot Z1
+                  
+                  
+                    GZ2
+                    Watershed 1 soil moisture network transect G, hollow, plot Z2
+                  
+                  
+                    GZ3
+                    Watershed 1 soil moisture network transect G, hollow, plot Z3
+                  
+                  
+                    HH1
+                    Watershed 1 soil moisture network transect H, hollow, plot 1
+                  
+                  
+                    HH2
+                    Watershed 1 soil moisture network transect H, hollow, plot 2
+                  
+                  
+                    HH3
+                    Watershed 1 soil moisture network transect H, hollow, plot 3
+                  
+                  
+                    HH4
+                    Watershed 1 soil moisture network transect H, hollow, plot 4
+                  
+                  
+                    HH5
+                    Watershed 1 soil moisture network transect H, hollow, plot 5
+                  
+                  
+                    IR1
+                    Watershed 1 soil moisture network transect I, ridge, plot 1
+                  
+                  
+                    IR2
+                    Watershed 1 soil moisture network transect I, ridge, plot 2
+                  
+                  
+                    IR3
+                    Watershed 1 soil moisture network transect I, ridge, plot 3
+                  
+                  
+                    IR4
+                    Watershed 1 soil moisture network transect I, ridge, plot 4
+                  
+                  
+                    JH0
+                    Watershed 1 soil moisture network transect J, hollow, plot 0
+                  
+                  
+                    JH1
+                    Watershed 1 soil moisture network transect J, hollow, plot 1
+                  
+                  
+                    JH2
+                    Watershed 1 soil moisture network transect J, hollow, plot 2
+                  
+                  
+                    LH1
+                    Watershed 1 soil moisture network transect L, hollow, plot 1
+                  
+                  
+                    LH2
+                    Watershed 1 soil moisture network transect L, hollow, plot 2
+                  
+                  
+                    LH3
+                    Watershed 1 soil moisture network transect L, hollow, plot 3
+                  
+                  
+                    LH4
+                    Watershed 1 soil moisture network transect L, hollow, plot 4
+                  
+                  
+                    LH5
+                    Watershed 1 soil moisture network transect L, hollow, plot 5
+                  
+                  
+                    LZ1
+                    Watershed 1 soil moisture network transect L, hollow, plot Z1
+                  
+                  
+                    LZ1T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z1
+                  
+                  
+                    LZ2
+                    Watershed 1 soil moisture network transect L, hollow, plot Z2
+                  
+                  
+                    LZ2T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z2
+                  
+                  
+                    LZ3
+                    Watershed 1 soil moisture network transect L, hollow, plot Z3
+                  
+                  
+                    LZ3T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z3
+                  
+                  
+                    LZ4
+                    Watershed 1 soil moisture network transect L, hollow, plot Z4
+                  
+                  
+                    LZ4T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z4
+                  
+                  
+                    LZ5
+                    Watershed 1 soil moisture network transect L, hollow, plot Z5
+                  
+                  
+                    LZ5T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z5
+                  
+                  
+                    LZ6
+                    Watershed 1 soil moisture network transect L, hollow, plot Z6
+                  
+                  
+                    LZ6T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z6
+                  
+                  
+                    LZ7
+                    Watershed 1 soil moisture network transect L, hollow, plot Z7
+                  
+                  
+                    LZ7T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z7
+                  
+                  
+                    MR1
+                    Watershed 1 soil moisture network transect M, ridge, plot 1
+                  
+                  
+                    MR2
+                    Watershed 1 soil moisture network transect M, ridge, plot 2
+                  
+                  
+                    MR3
+                    Watershed 1 soil moisture network transect M, ridge, plot 3
+                  
+                  
+                    MZ1
+                    Watershed 1 soil moisture network transect M, hollow, plot Z1
+                  
+                  
+                    MZ2
+                    Watershed 1 soil moisture network transect M, hollow, plot Z2
+                  
+                  
+                    MZ3
+                    Watershed 1 soil moisture network transect M, hollow, plot Z3
+                  
+                
+              
+            
+          
+        
+        
+          DEPTH
+          mineral soil depth
+          char(4)
+          
+            
+              
+                
+                  
+                    15cm
+                    soil core taken at 15 to 20 cm depth
+                  
+                  
+                    45cm
+                    soil core taken at 45 to 50 cm depth
+                  
+                
+              
+            
+          
+        
+        
+          BULK_DENSITY
+          bulk density
+          numeric(4,2)
+          
+            
+              
+                cubic centimeters per cubic centimeter
+              
+              1
+              
+                real
+                
+                  0.8800
+                  1.2900
+                
+              
+            
+          
+        
+        
+          COARSE
+          gravimetric coarse content
+          numeric(5,2)
+          
+            
+              
+                percent
+              
+              1
+              
+                real
+                
+                  35.6700
+                  80.3300
+                
+              
+            
+          
+        
+        
+          SAND
+          sand content
+          numeric(5,2)
+          
+            
+              
+                percent
+              
+              1
+              
+                real
+                
+                  1.9600
+                  26.2000
+                
+              
+            
+          
+        
+        
+          SILT
+          silt content
+          numeric(5,2)
+          
+            
+              
+                percent
+              
+              1
+              
+                real
+                
+                  43.5400
+                  56.9700
+                
+              
+            
+          
+        
+        
+          CLAY
+          clay content
+          numeric(5,2)
+          
+            
+              
+                percent
+              
+              1
+              
+                real
+                
+                  29.3400
+                  45.0900
+                
+              
+            
+          
+        
+        
+          VWC_FC
+          volumetric water content at -33 kPa
+          numeric(4,2)
+          
+            
+              
+                cubic centimeters per cubic centimeter
+              
+              1
+              
+                real
+                
+                  0.1600
+                  0.3000
+                
+              
+            
+          
+        
+        
+          VWC_TURGORLOSS
+          volumetric water content at -2500 kPa
+          numeric(4,2)
+          
+            
+              
+                cubic centimeters per cubic centimeter
+              
+              1
+              
+                real
+                
+                  0.1000
+                  0.2100
+                
+              
+            
+          
+        
+        
+          KSAT
+          saturated hydraulic conductivity
+          numeric(5,1)
+          
+            
+              
+                centimeters per hour
+              
+              1
+              
+                real
+                
+                  46.6000
+                  509.0000
+                
+              
+            
+          
+        
+      
+      
+        
+          PRIMARY
+          
+            sp03602.DEPTH
+            sp03602.SITE
+          
+        
+      
+      
+        
+          NOTNULL
+          
+            sp03602.BULK_DENSITY
+            sp03602.CLAY
+            sp03602.COARSE
+            sp03602.DBCODE
+            sp03602.DEPTH
+            sp03602.ENTITY
+            sp03602.KSAT
+            sp03602.SAND
+            sp03602.SILT
+            sp03602.SITE
+            sp03602.VWC_FC
+            sp03602.VWC_TURGORLOSS
+          
+        
+      
+      26
+    
+    
+      3
+      sp03603
+      Total soil depth to bedrock: 
+      
+        sp03603.csv
+        2488
+        75aae0912f4a52f19a48a21763135850
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-and/5488/2/2018f315abaaeca8b481c27571468a38
+          
+        
+      
+      
+        
+          
+            
+              2017-07-18
+            
+            
+              2017-09-13
+            
+          
+        
+      
+      
+        
+          DBCODE
+          FSDB Database Code
+          char(5)
+          
+            
+              
+                
+                  
+                    SP036
+                    FSDB Database Study Code
+                  
+                
+              
+            
+          
+        
+        
+          ENTITY
+          Entity number
+          numeric(2,0)
+          
+            
+              
+                number
+              
+              1
+              
+                natural
+                
+                  3.0000
+                  3.0000
+                
+              
+            
+          
+        
+        
+          SITE
+          site name
+          char(4)
+          
+            
+              
+                
+                  
+                    AR2
+                    Watershed 1 soil moisture network transect A, ridge, plot 2
+                  
+                  
+                    AR3
+                    Watershed 1 soil moisture network transect A, ridge, plot 3
+                  
+                  
+                    CR1
+                    Watershed 1 soil moisture network transect C, ridge, plot 1
+                  
+                  
+                    CR2
+                    Watershed 1 soil moisture network transect C, ridge, plot 2
+                  
+                  
+                    CR3
+                    Watershed 1 soil moisture network transect C, ridge, plot 3
+                  
+                  
+                    DH0
+                    Watershed 1 soil moisture network transect D, hollow, plot 0
+                  
+                  
+                    DH1
+                    Watershed 1 soil moisture network transect D, hollow, plot 1
+                  
+                  
+                    DH2
+                    Watershed 1 soil moisture network transect D, hollow, plot 2
+                  
+                  
+                    ER1
+                    Watershed 1 soil moisture network transect E, ridge, plot 1
+                  
+                  
+                    ER2
+                    Watershed 1 soil moisture network transect E, ridge, plot 2
+                  
+                  
+                    ER3
+                    Watershed 1 soil moisture network transect E, ridge, plot 3
+                  
+                  
+                    FH0
+                    Watershed 1 soil moisture network transect F, hollow, plot 0
+                  
+                  
+                    FH1
+                    Watershed 1 soil moisture network transect F, hollow, plot 1
+                  
+                  
+                    FZ1
+                    Watershed 1 soil moisture network transect F, hollow, plot Z1
+                  
+                  
+                    FZ1T
+                    Watershed 1 soil moisture network transect F, hollow, tree plot Z1
+                  
+                  
+                    FZ2
+                    Watershed 1 soil moisture network transect F, hollow, plot Z2
+                  
+                  
+                    FZ2T
+                    Watershed 1 soil moisture network transect F, hollow, tree plot Z2
+                  
+                  
+                    FZ3
+                    Watershed 1 soil moisture network transect F, hollow, plot Z3
+                  
+                  
+                    FZ3T
+                    Watershed 1 soil moisture network transect F, hollow, tree plot Z3
+                  
+                  
+                    FZ4
+                    Watershed 1 soil moisture network transect F, hollow, plot Z4
+                  
+                  
+                    FZ5
+                    Watershed 1 soil moisture network transect F, hollow, plot Z5
+                  
+                  
+                    FZ6
+                    Watershed 1 soil moisture network transect F, hollow, plot Z6
+                  
+                  
+                    GR2
+                    Watershed 1 soil moisture network transect G, ridge, plot 2
+                  
+                  
+                    GR3
+                    Watershed 1 soil moisture network transect G, ridge, plot 3
+                  
+                  
+                    GZ1
+                    Watershed 1 soil moisture network transect G, hollow, plot Z1
+                  
+                  
+                    GZ2
+                    Watershed 1 soil moisture network transect G, hollow, plot Z2
+                  
+                  
+                    GZ3
+                    Watershed 1 soil moisture network transect G, hollow, plot Z3
+                  
+                  
+                    HH1
+                    Watershed 1 soil moisture network transect H, hollow, plot 1
+                  
+                  
+                    HH2
+                    Watershed 1 soil moisture network transect H, hollow, plot 2
+                  
+                  
+                    HH3
+                    Watershed 1 soil moisture network transect H, hollow, plot 3
+                  
+                  
+                    HH4
+                    Watershed 1 soil moisture network transect H, hollow, plot 4
+                  
+                  
+                    HH5
+                    Watershed 1 soil moisture network transect H, hollow, plot 5
+                  
+                  
+                    IR1
+                    Watershed 1 soil moisture network transect I, ridge, plot 1
+                  
+                  
+                    IR2
+                    Watershed 1 soil moisture network transect I, ridge, plot 2
+                  
+                  
+                    IR3
+                    Watershed 1 soil moisture network transect I, ridge, plot 3
+                  
+                  
+                    IR4
+                    Watershed 1 soil moisture network transect I, ridge, plot 4
+                  
+                  
+                    JH0
+                    Watershed 1 soil moisture network transect J, hollow, plot 0
+                  
+                  
+                    JH1
+                    Watershed 1 soil moisture network transect J, hollow, plot 1
+                  
+                  
+                    JH2
+                    Watershed 1 soil moisture network transect J, hollow, plot 2
+                  
+                  
+                    LH1
+                    Watershed 1 soil moisture network transect L, hollow, plot 1
+                  
+                  
+                    LH2
+                    Watershed 1 soil moisture network transect L, hollow, plot 2
+                  
+                  
+                    LH3
+                    Watershed 1 soil moisture network transect L, hollow, plot 3
+                  
+                  
+                    LH4
+                    Watershed 1 soil moisture network transect L, hollow, plot 4
+                  
+                  
+                    LH5
+                    Watershed 1 soil moisture network transect L, hollow, plot 5
+                  
+                  
+                    LZ1
+                    Watershed 1 soil moisture network transect L, hollow, plot Z1
+                  
+                  
+                    LZ1T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z1
+                  
+                  
+                    LZ2
+                    Watershed 1 soil moisture network transect L, hollow, plot Z2
+                  
+                  
+                    LZ2T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z2
+                  
+                  
+                    LZ3
+                    Watershed 1 soil moisture network transect L, hollow, plot Z3
+                  
+                  
+                    LZ3T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z3
+                  
+                  
+                    LZ4
+                    Watershed 1 soil moisture network transect L, hollow, plot Z4
+                  
+                  
+                    LZ4T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z4
+                  
+                  
+                    LZ5
+                    Watershed 1 soil moisture network transect L, hollow, plot Z5
+                  
+                  
+                    LZ5T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z5
+                  
+                  
+                    LZ6
+                    Watershed 1 soil moisture network transect L, hollow, plot Z6
+                  
+                  
+                    LZ6T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z6
+                  
+                  
+                    LZ7
+                    Watershed 1 soil moisture network transect L, hollow, plot Z7
+                  
+                  
+                    LZ7T
+                    Watershed 1 soil moisture network transect L, hollow, tree plot Z7
+                  
+                  
+                    MR1
+                    Watershed 1 soil moisture network transect M, ridge, plot 1
+                  
+                  
+                    MR2
+                    Watershed 1 soil moisture network transect M, ridge, plot 2
+                  
+                  
+                    MR3
+                    Watershed 1 soil moisture network transect M, ridge, plot 3
+                  
+                  
+                    MZ1
+                    Watershed 1 soil moisture network transect M, hollow, plot Z1
+                  
+                  
+                    MZ2
+                    Watershed 1 soil moisture network transect M, hollow, plot Z2
+                  
+                  
+                    MZ3
+                    Watershed 1 soil moisture network transect M, hollow, plot Z3
+                  
+                
+              
+            
+          
+        
+        
+          REP
+          replicate
+          char(2)
+          
+            
+              
+                
+                  
+                    1
+                    first replicate
+                  
+                  
+                    2
+                    second replicate
+                  
+                  
+                    3
+                    third replicate
+                  
+                  
+                    4
+                    fourth replicate
+                  
+                
+              
+            
+          
+        
+        
+          DATE
+          measurement date
+          datetime
+          
+            
+              YYYY-MM-DD
+              
+                
+                  7/18/2017 12:00:00 AM
+                  9/13/2017 12:00:00 AM
+                
+              
+            
+          
+        
+        
+          MAX_DEPTH
+          total depth to bedrock if less than 5.15 m
+          numeric(4,2)
+          
+            
+              
+                meters
+              
+              1
+              
+                real
+                
+                  0.1000
+                  5.1500
+                
+              
+            
+          
+        
+      
+      
+        
+          PRIMARY
+          
+            sp03603.DATE
+            sp03603.REP
+            sp03603.SITE
+          
+        
+      
+      
+        
+          NOTNULL
+          
+            sp03603.DATE
+            sp03603.DBCODE
+            sp03603.ENTITY
+            sp03603.MAX_DEPTH
+            sp03603.REP
+            sp03603.SITE
+          
+        
+      
+      79
+    
+  
+  
+    
+      
+        
+          centimeters per hour
+        
+        
+          percent; a number
+        
+        
+          cubic centimeters per cubic centimeter
+        
+        
+          meter; SI unit of length
+        
+        
+          dimensionless number, i.e., ratio, count
+        
+      
+    
+  

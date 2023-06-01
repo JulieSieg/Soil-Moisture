@@ -1,0 +1,2862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.5488.2"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>SP036</alternateIdentifier>
+    <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/d4764b05a9aa95f7cfc5514dfcacc6a3</alternateIdentifier><title>Soil moisture and soil properties in Watershed 1 of the HJ Andrews Experimental Forest, 2016–2020</title>
+    <creator>
+      <individualName>
+        <givenName>Karla</givenName>
+        <surName>Jarecke</surName>
+      </individualName>
+      <electronicMailAddress>jareckek@gmail.com</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>steve.wondzell@usda.gov</electronicMailAddress>
+      <onlineUrl>https://www.fs.fed.us/pnw/lwm/aem/people/wondzell.html</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kevin</givenName>
+        <surName>Bladon</surName>
+      </individualName>
+      <electronicMailAddress>kevin.bladon@oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://fews.forestry.oregonstate.edu/</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>steve.wondzell@usda.gov</electronicMailAddress>
+      <onlineUrl>https://www.fs.fed.us/pnw/lwm/aem/people/wondzell.html</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Kevin</givenName>
+        <surName>Bladon</surName>
+      </individualName>
+      <electronicMailAddress>kevin.bladon@oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://fews.forestry.oregonstate.edu/</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Karla</givenName>
+        <surName>Jarecke</surName>
+      </individualName>
+      <electronicMailAddress>jareckek@gmail.com</electronicMailAddress>
+      <role>Creator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>steve.wondzell@usda.gov</electronicMailAddress>
+      <onlineUrl>https://www.fs.fed.us/pnw/lwm/aem/people/wondzell.html</onlineUrl>
+      <role>Creator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Kevin</givenName>
+        <surName>Bladon</surName>
+      </individualName>
+      <electronicMailAddress>kevin.bladon@oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://fews.forestry.oregonstate.edu/</onlineUrl>
+      <role>Creator</role>
+    </associatedParty>
+    <pubDate>2021-04-05</pubDate>
+    <abstract>
+      <para>Soil water content was measured at 0–30 cm and 0–60 cm depth at 54 sites within a 10-ha north-facing forested slope of Watershed 1 on 14 dates from August 2016–October 2017. Soil properties were measured at 13 soil moisture sites during the summer of 2017. Soil properties include bulk density, percent sand, percent clay, percent silt, gravimetric rock content, volumetric water content at field capacity, volumetric water content at turgor loss point, and saturated hydraulic conductivity at 15 and 45 cm depth. Total soil depth and resistance to penetration were also measured at 38 sites using a dynamic cone penetrometer. Volumetric water content (VWC) and soil water potential were recorded every 30 min at 9 locations in Watershed 1. VWC sensors were installed at 5, 50, and 100 cm and soil water potential were installed at 50 cm at each location.</para>
+    </abstract>
+    <keywordSet>
+      <keyword
+        keywordType="theme">soil water content</keyword>
+      <keyword
+        keywordType="theme">time domain reflectometry</keyword>
+      <keyword
+        keywordType="theme">soil</keyword>
+      <keyword
+          keywordType="theme">forest ecosystems</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>  <para><emphasis>Related Files</emphasis></para><para>Title: Site Location Map</para><para>Description: Site location map categorized using the Topographic Position Index</para><para>URL: https://andrewsforest.oregonstate.edu/data/studies/sp036/sp036_site_location_map.pdf</para></additionalInfo>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+<para> The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. This Data Set is released under the Creative Commons license CC BY "Attribution" (see: https://creativecommons.org/licenses/by/4.0/).   Creative Commons license CC BY - Attribution is a license that allows others to distribute, remix, tweak, and build upon your work (even commercially), as long as you are credited for the original creation.  This license accommodates maximum dissemination and use of licensed materials.</para>
+<para>It is considered professional conduct and an ethical obligation to acknowledge the work of other scientists. The Data User is asked to provide attribution of the original work if this data package is shared in whole or by individual parts or used in the derivation of other products.  A recommended citation is provided for each Data Set in the Andrews LTER data catalog (see: http://andlter.forestry.oregonstate.edu/data/catalog/datacatalog.aspx). A generic citation is also provided for this Data Set on the website https://portal.edirepository.org in the summary metadata page. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. </para>
+<para>While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed and all data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. </para>
+<para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 2025755), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para></intellectualRights>
+    <distribution>
+      <online>
+        <url
+          function="information">http://andlter.forestry.oregonstate.edu/data/abstract.aspx?dbcode=SP036</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Watershed 1, H.J. Andrews Experimental Forest</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.25563380</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.25089480</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.20546220</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20357538</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>515</altitudeMinimum>
+            <altitudeMaximum>668</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2016-08-16</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017-10-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>We designed our study to test if the redistribution of water, following surface topography, controlled the spatial patterns of soil moisture across a steep forested hillslope with well-drained soils.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Study code and preliminary metadata established</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2017-05-19</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Uploaded metadata from move_xls (Excel spreadsheet). Imported data from CSV. Ran QC. Uploaded to SQL.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2021-04-01</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    
+    <publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress><onlineUrl>https://environmentaldatainitiative.org</onlineUrl></publisher><pubPlace>Environmental Data Initiative</pubPlace><methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - SP036</para>
+          <para>Soil volumetric water content (VWC) was measured at 54 sites using time domain reflectometry (TDR; model No. 1502C, Tektronix Inc., Beaverton, OR). VWC was measured over two mineral soil layers, 0–30 and 0–60 cm. Measurements points were replicated at each site so there were two VWC measurements for each depth. A measurement point consisted of a pair of TDR rods installed vertically, 5 cm apart, in mineral soil. The replicate measurement points were, on average, 2.5 m apart and the measurement volume of each point was 30 cm or 60 cm deep and 10 cm in diameter (Topp et al. 1980). The reflection trace was converted from TDR to VWC using a calibration equation developed in a nearby watershed (Gray  &amp;  Spies, 1995). VWC was estimated at 30-60 cm using the VWC from adjacent 0-30 and 0-60 cm probes after accounting for differences in volume sampled:  VWC(30-60cm)  =2 × VWC(0-60cm)  - VWC(0-30cm). The sensitivity of the instrument was 0.01 cm3/cm3 as determined from repeat measurements less than one minute apart.</para>
+<para>Soils were collected by digging a shallow pit and exposing an undisturbed soil face. Soils overlying each sampling depth, 15 and 45 cm, were removed and a 250 cm3 metal cylinder (5 cm tall and 8 cm diameter) was pounded vertically into the soil. Saturated hydraulic conductivity (Ks) was measured in the laboratory using the falling head method on the KSAT device (METER Group Inc.). The Ks was averaged from five repeated measurements from each soil core. Soils from individual cores were subsequently dried at 105 deg C for 24 hours and the oven-dried weight was divided by the sample volume to determine the bulk density. The dried soil sample was used to quantify gravimetric coarse content and particle size. Coarse material consisted of 2-5 mm rock fragments, weathered saprolite fragments, roots, and wood. The sample was placed  in a mortar and lightly tapped with a pestle to break soil aggregates but preserve saprolite fragments. The sample was then passed through a 2 mm sieve to remove coarse material, including saprolite fragments. The sieved soil was mixed, a 5-7 g subsample was collected, and then organic carbon was removed from the subsample using the hydrogen peroxide method (Mikutta et al., 2005). The subsample was sent to the Critical Zone Lab at Virginia Tech for particle size analysis using laser diffractometry on a CILAS 1190 laser particle size analyzer (Miller  &amp;  Schaetzl, 2012).</para>
+<para>Depth to bedrock was measured at 38 sites using a dynamic cone penetrometer, which is also known as a knocking pole (Shanley et al., 2003; Yoshinaga  &amp;  Ohnuki, 1995). The pole consisted of 0.5 m graduated steel rod segments and a 20 mm long and 24 mm diameter cone tip, which was driven into the soil by repeated drops of a 5 kg weight onto a platform threaded on the upper segment of the pole. When the resistance to penetration became large (moving less than 1 cm in 15 or more knocks), it was assumed the cone tip had reached bedrock. Soil depth to bedrock was calculated at each site from the average of 2-3 repeat measurements taken approximately 5-10 m apart.</para>
+<para>All soil sensors were purchased from METER Environment. Dielectric permittivity was measured at 5 and 50 cm using the 5TM water content and temperature sensor and at 100 cm using the TEROS 12 water content, temperature, and conductivity sensor. VWC was calculated from dielectric permittivity using the manufacturer’s equation, which follows Topp et al. (1980). Soil water potential was measured at 50 cm using the TEROS 21 water potential and temperature sensor. A small soil pit was dug to expose an undisturbed soil profile and sensors installed horizontally at 5 and 50 cm. To install the VWC sensor at 100 cm, a hole was augured and the TEROS borehole installation tool (METER Environment) used to insert the sensor probes horizontally into undisturbed soil at 100 cm. </para></description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Our study was located in Watershed 1, a 96-ha catchment at the H. J. Andrews Experimental Forest on the west slope of the central Cascade Mountains of Oregon, USA (44°12’18.8” N, 122°15’16.2” W). The average elevation of the study area is 576 m and the average slope is 37 degrees. The study catchment was 100 % clearcut from 1962–1966 and logging residues were burned in 1966 to expose a mineral soil seedbed. There were several efforts to re-establish vegetation in the watershed. The watershed was aerially seeded with Douglas-fir (Pseudotsuga menziesii) in 1967 and 10 ha were re-seeded in 1968. In 1969, 2-yr-old Douglas-fir trees were planted across the entire watershed, and in 1971, 40 ha were re-planted with 2- and 3-yr-old trees (Halpern, 1988). Forty to fifty-year-old Douglas-fir trees dominate the overstory. While much less common, both bigleaf maple (Acer macrophyllum) and western hemlock (Tsuga heterophylla) are also present. The understory includes vine maple (Acer circinatum), Oregon grape (Mahonia aquifolium), and sword fern (Polystichum munitum).</para>
+<para>The average depth of the forest floor and organic horizon was 5 cm at our soil measurement points. Mineral soil in the top 100 cm was generally gravelly, silty clay loam with developed A and B horizons, which had gradual and poorly defined boundaries. Soils were underlain by unconsolidated, highly weathered saprolite and fractured bedrock (Gabrielli et al. 2012). Soil thickness ranged from 20 cm to more than 5 m. Parent materials primarily include tuffs and breccias, but basalts and andesites are also present (Halpern, 1988). </para>
+<para>The regional climate is characterized by cool, wet winters and warm, dry summers. During the period of study, from August 2016 to October 2017, the site received 2,833 mm of rainfall, which was slightly more than the long-term average. The average rainfall total during the 15-month period from August to October during 1979–2015 was 2,450 mm, the maximum total rainfall was 3,512 mm and minimum was 1,607 mm (Daly et al., 2019). The spatial variability of rainfall interception can create differences in VWC if measured under the canopy or under gaps in the canopy (Gray et al., 2002). Thus, we avoided locations under large canopy gaps when establishing soil moisture monitoring sites to minimize differences in VWC associated with interception. </para></description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Fifty-four permanent monitoring sites were established in July 2016 along alternating convergent and divergent hillslopes within a 10-ha north-facing forested slope of Watershed 1 of the HJ Andrews Experimental Forest. A map of classified Topographic Position Index (TPI) was used to guide the placement of soil monitoring sites. TPI was estimated from a 1x1 m digital elevation model by subtracting the elevation of a grid cell from the mean elevation of all cells within a 30 m radius (Jenness, 2006). Positive TPI values represented divergent slope positions where the elevation of a pixel was high relative to the average surrounding locations. Conversely, negative TPI values represented convergent slope positions where the elevation of a pixel was low relative to surroundings. Locations where TPI was close to zero were relatively planar. Individual hillslopes were distinguished by a switch between negative and positive TPI along the same elevation contour. </para>
+<para>Fourteen surveys were conducted to investigate the effect of topography on soil water content using time domain reflectometry at 0–30 cm and 0–60 cm depth. Soil moisture surveys were preformed from August–October 2016 and April–October 2017. These data include volumetric water content and date. Soil properties (bulk density, percent sand, percent clay, percent silt, gravimetric rock content, water retention, and saturated hydraulic conductivity) were measured at 15 and 45 cm depth at 13 sites during the summer of 2017. Total soil depth and resistance to penetration were measured at 38 sites using a dynamic cone penetrometer.</para>
+							<para>Citation:
+							</para> 
+							<para>Jenness, J. (2006). Topographic Position Index (tpi_jen.avx) Extension for ArcView. Jenness Enterprises.</para></samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25683100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.23581300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20851700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19901700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1027</altitudeMinimum>
+                <altitudeMaximum>1027</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network sites</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25563380</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25089480</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20546220</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20357538</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>668</altitudeMinimum>
+                <altitudeMaximum>668</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect A, ridge, plot 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25543770</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25543770</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20531840</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20531840</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>533</altitudeMinimum>
+                <altitudeMaximum>533</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect A, ridge, plot 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25563380</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25563380</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20511051</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20511051</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>552</altitudeMinimum>
+                <altitudeMaximum>552</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect C, ridge, plot 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25496520</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25496520</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20509200</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20509200</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>543</altitudeMinimum>
+                <altitudeMaximum>543</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect C, ridge, plot 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25497240</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25497240</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20489314</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20489314</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>560</altitudeMinimum>
+                <altitudeMaximum>560</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect C, ridge, plot 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25486210</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25486210</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20469173</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20469173</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>578</altitudeMinimum>
+                <altitudeMaximum>578</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect D, hollow, plot 0</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25472450</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25472450</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20513408</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20513408</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>539</altitudeMinimum>
+                <altitudeMaximum>539</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect D, hollow, plot 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25466040</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25466040</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20497332</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20497332</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>551</altitudeMinimum>
+                <altitudeMaximum>551</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect D, hollow, plot 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25460350</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25460350</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20465565</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20465565</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>574</altitudeMinimum>
+                <altitudeMaximum>574</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect E, ridge, plot 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25452300</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25452300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20508635</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20508635</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>547</altitudeMinimum>
+                <altitudeMaximum>547</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect E, ridge, plot 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25439560</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25439560</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20488424</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20488424</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>563</altitudeMinimum>
+                <altitudeMaximum>563</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect E, ridge, plot 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25428180</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25428180</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20461458</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20461458</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>584</altitudeMinimum>
+                <altitudeMaximum>584</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, plot 0</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25394990</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25394990</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20504015</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20504015</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>550</altitudeMinimum>
+                <altitudeMaximum>550</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, plot 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25381940</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25381940</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20487475</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20487475</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>565</altitudeMinimum>
+                <altitudeMaximum>565</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, plot Z1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25400860</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25400860</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20542317</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20542317</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>518</altitudeMinimum>
+                <altitudeMaximum>518</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, tree plot Z1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25399570</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25399570</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20544816</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20544816</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>515</altitudeMinimum>
+                <altitudeMaximum>515</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, plot Z2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25400540</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25400540</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20514136</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20514136</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>542</altitudeMinimum>
+                <altitudeMaximum>542</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, tree plot Z2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25405930</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25405930</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20505612</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20505612</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>548</altitudeMinimum>
+                <altitudeMaximum>548</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, plot Z3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25393670</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25393670</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20494363</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20494363</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>557</altitudeMinimum>
+                <altitudeMaximum>557</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, tree plot Z3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25394640</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25394640</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20488890</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20488890</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>561</altitudeMinimum>
+                <altitudeMaximum>561</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, plot Z4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25387940</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25387940</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20544566</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20544566</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>518</altitudeMinimum>
+                <altitudeMaximum>518</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, plot Z5</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25392920</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25392920</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20506780</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20506780</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>549</altitudeMinimum>
+                <altitudeMaximum>549</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect F, hollow, plot Z6</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25380070</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25380070</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20485586</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20485586</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>566</altitudeMinimum>
+                <altitudeMaximum>566</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect G, ridge, plot 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25366150</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25366150</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20485699</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20485699</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>570</altitudeMinimum>
+                <altitudeMaximum>570</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect G, ridge, plot 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25352340</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25352340</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20453186</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20453186</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>591</altitudeMinimum>
+                <altitudeMaximum>591</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect G, hollow, plot Z1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25380550</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25380550</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20546225</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20546225</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>520</altitudeMinimum>
+                <altitudeMaximum>520</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect G, hollow, plot Z2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25382000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25382000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20508997</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20508997</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>549</altitudeMinimum>
+                <altitudeMaximum>549</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect G, hollow, plot Z3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25367790</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25367790</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20472974</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20472974</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>578</altitudeMinimum>
+                <altitudeMaximum>578</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect H, hollow, plot 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25316930</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25316930</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20473914</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20473914</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>568</altitudeMinimum>
+                <altitudeMaximum>568</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect H, hollow, plot 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25320600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25320600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20455258</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20455258</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>581</altitudeMinimum>
+                <altitudeMaximum>581</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect H, hollow, plot 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25322320</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25322320</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20421521</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20421521</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>605</altitudeMinimum>
+                <altitudeMaximum>605</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect H, hollow, plot 4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25289910</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25289910</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20392892</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20392892</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>629</altitudeMinimum>
+                <altitudeMaximum>629</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect H, hollow, plot 5</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25296170</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25296170</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20357538</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20357538</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>653</altitudeMinimum>
+                <altitudeMaximum>653</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect I, ridge, plot 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25289520</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25289520</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20495823</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20495823</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>556</altitudeMinimum>
+                <altitudeMaximum>556</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect I, ridge, plot 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25279540</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25279540</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20483171</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20483171</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>567</altitudeMinimum>
+                <altitudeMaximum>567</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect I, ridge, plot 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25285280</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25285280</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20428202</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20428202</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>611</altitudeMinimum>
+                <altitudeMaximum>611</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect I, ridge, plot 4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25242370</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25242370</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20375735</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20375735</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>657</altitudeMinimum>
+                <altitudeMaximum>657</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect J, hollow, plot 0</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25236520</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25236520</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20477472</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20477472</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>570</altitudeMinimum>
+                <altitudeMaximum>570</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect J, hollow, plot 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25231750</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25231750</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20394273</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20394273</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>642</altitudeMinimum>
+                <altitudeMaximum>642</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect J, hollow, plot 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25189940</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25189940</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20365471</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20365471</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>668</altitudeMinimum>
+                <altitudeMaximum>668</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25173050</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25173050</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20483075</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20483075</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>569</altitudeMinimum>
+                <altitudeMaximum>569</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25169840</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25169840</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20470937</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20470937</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>578</altitudeMinimum>
+                <altitudeMaximum>578</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25165580</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25165580</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20461056</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20461056</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>586</altitudeMinimum>
+                <altitudeMaximum>586</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot 4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25157530</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25157530</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20434847</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20434847</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>610</altitudeMinimum>
+                <altitudeMaximum>610</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot 5</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25145130</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25145130</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20403766</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20403766</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>640</altitudeMinimum>
+                <altitudeMaximum>640</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot Z1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25179390</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25179390</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20521483</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20521483</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>538</altitudeMinimum>
+                <altitudeMaximum>538</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, tree plot Z1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25179980</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25179980</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20521725</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20521725</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>538</altitudeMinimum>
+                <altitudeMaximum>538</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot Z2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25176870</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25176870</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20499699</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20499699</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>556</altitudeMinimum>
+                <altitudeMaximum>556</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, tree plot Z2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25170430</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25170430</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20495763</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20495763</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>559</altitudeMinimum>
+                <altitudeMaximum>559</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot Z3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25162530</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25162530</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20473925</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20473925</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>576</altitudeMinimum>
+                <altitudeMaximum>576</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, tree plot Z3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25159230</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25159230</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20472466</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20472466</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>578</altitudeMinimum>
+                <altitudeMaximum>578</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot Z4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25157580</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25157580</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20457119</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20457119</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>591</altitudeMinimum>
+                <altitudeMaximum>591</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, tree plot Z4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25157260</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25157260</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20436711</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20436711</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>609</altitudeMinimum>
+                <altitudeMaximum>609</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot Z5</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25159660</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25159660</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20505721</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20505721</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>556</altitudeMinimum>
+                <altitudeMaximum>556</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, tree plot Z5</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25151810</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25151810</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20505955</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20505955</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>559</altitudeMinimum>
+                <altitudeMaximum>559</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot Z6</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25143770</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25143770</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20479659</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20479659</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>579</altitudeMinimum>
+                <altitudeMaximum>579</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, tree plot Z6</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25143590</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25143590</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20479940</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20479940</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>579</altitudeMinimum>
+                <altitudeMaximum>579</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, plot Z7</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25143400</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25143400</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20456879</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20456879</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>596</altitudeMinimum>
+                <altitudeMaximum>596</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect L, hollow, tree plot Z7</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25142230</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25142230</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20456402</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20456402</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>596</altitudeMinimum>
+                <altitudeMaximum>596</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect M, ridge, plot 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25109770</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25109770</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20483707</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20483707</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>580</altitudeMinimum>
+                <altitudeMaximum>580</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect M, ridge, plot 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25089480</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25089480</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20437010</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20437010</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>617</altitudeMinimum>
+                <altitudeMaximum>617</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect M, ridge, plot 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25106100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25106100</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20398694</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20398694</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>649</altitudeMinimum>
+                <altitudeMaximum>649</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect M, hollow, plot Z1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25119360</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25119360</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20498482</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20498482</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>568</altitudeMinimum>
+                <altitudeMaximum>568</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect M, hollow, plot Z2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25123570</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25123570</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20469670</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20469670</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>589</altitudeMinimum>
+                <altitudeMaximum>589</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 soil moisture network transect M, hollow, plot Z3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25108440</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25108440</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20452152</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20452152</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>605</altitudeMinimum>
+                <altitudeMaximum>605</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>541-758-7771</phone>
+        <electronicMailAddress>sherri.johnson2@usda.gov</electronicMailAddress>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>https://www.fs.fed.us/research/people/profile.php?alias=sherrijohnson</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>Julia.Jones@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <onlineUrl>http://ceoas.oregonstate.edu/profile/jones/</onlineUrl>
+        <userId
+          directory="http://orcid.org">http://orcid.org/0000-0001-9429-8925</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Matthew</givenName>
+          <givenName>G</givenName>
+          <surName>Betts</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201E Richardson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>(541) 737-3841</phone>
+        <electronicMailAddress>matt.betts@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.fsl.orst.edu/flel/index.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201K Richarson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>541-737-9221</phone>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <userId
+          directory="http://orcid.org">http://orcid.org/0000-0001-6917-4752</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>David</givenName>
+          <surName>Bell</surName>
+        </individualName>
+        <electronicMailAddress>david.bell@usda.gov</electronicMailAddress>
+        <electronicMailAddress>david.bell@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>https://lemma.forestry.oregonstate.edu/about/david-bell</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para> 
+
+<para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+
+<para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para></abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 2025755), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB1440409</funding>
+      <studyAreaDescription>
+        <descriptor
+          citableClassificationSystem="false"
+      name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable
+          id="sp03601">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>sp03601</entityName>
+      <entityDescription>Soil moisture (coarse temporal resolution): </entityDescription>
+      <physical>
+        <objectName>sp03601.csv</objectName>
+        <size
+          unit="byte">115067</size>
+        <authentication
+              method="MD5">bc5550d8d9ea7f5b1599edc677a7a622</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5488/2/05bdaee022fac0db90d6ec2112c65875</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2016-08-16</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2017-10-15</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute
+            id="sp03601.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database Code</attributeDefinition>
+          <storageType
+          typeSystem="Microsoft SQL Server 2019">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SP036</code>
+                    <definition>FSDB Database Study Code</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03601.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">1.0000</minimum>
+                  <maximum
+          exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03601.SITE">
+          <attributeName>SITE</attributeName>
+          <attributeDefinition>site name</attributeDefinition>
+          <storageType
+          typeSystem="Microsoft SQL Server 2019">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AR2</code>
+                    <definition>Watershed 1 soil moisture network transect A, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AR3</code>
+                    <definition>Watershed 1 soil moisture network transect A, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR1</code>
+                    <definition>Watershed 1 soil moisture network transect C, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR2</code>
+                    <definition>Watershed 1 soil moisture network transect C, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR3</code>
+                    <definition>Watershed 1 soil moisture network transect C, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DH0</code>
+                    <definition>Watershed 1 soil moisture network transect D, hollow, plot 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DH1</code>
+                    <definition>Watershed 1 soil moisture network transect D, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DH2</code>
+                    <definition>Watershed 1 soil moisture network transect D, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ER1</code>
+                    <definition>Watershed 1 soil moisture network transect E, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ER2</code>
+                    <definition>Watershed 1 soil moisture network transect E, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ER3</code>
+                    <definition>Watershed 1 soil moisture network transect E, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FH0</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FH1</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ1</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ1T</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, tree plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ2</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ2T</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, tree plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ3</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ3T</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, tree plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ4</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ5</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ6</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GR2</code>
+                    <definition>Watershed 1 soil moisture network transect G, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GR3</code>
+                    <definition>Watershed 1 soil moisture network transect G, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GZ1</code>
+                    <definition>Watershed 1 soil moisture network transect G, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GZ2</code>
+                    <definition>Watershed 1 soil moisture network transect G, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GZ3</code>
+                    <definition>Watershed 1 soil moisture network transect G, hollow, plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH1</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH2</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH3</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH4</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH5</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR1</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR2</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR3</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR4</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JH0</code>
+                    <definition>Watershed 1 soil moisture network transect J, hollow, plot 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JH1</code>
+                    <definition>Watershed 1 soil moisture network transect J, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JH2</code>
+                    <definition>Watershed 1 soil moisture network transect J, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH1</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH2</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH3</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH4</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH5</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ1</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ1T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ2</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ2T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ3</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ3T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ4</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ4T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ5</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ5T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ6</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ6T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ7</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ7T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR1</code>
+                    <definition>Watershed 1 soil moisture network transect M, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR2</code>
+                    <definition>Watershed 1 soil moisture network transect M, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR3</code>
+                    <definition>Watershed 1 soil moisture network transect M, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MZ1</code>
+                    <definition>Watershed 1 soil moisture network transect M, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MZ2</code>
+                    <definition>Watershed 1 soil moisture network transect M, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MZ3</code>
+                    <definition>Watershed 1 soil moisture network transect M, hollow, plot Z3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03601.REP">
+          <attributeName>REP</attributeName>
+          <attributeDefinition>replicate</attributeDefinition>
+          <storageType
+          typeSystem="Microsoft SQL Server 2019">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>first replicate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>second replicate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>third replicate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>fourth replicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03601.LAYER">
+          <attributeName>LAYER</attributeName>
+          <attributeDefinition>mineral soil layer</attributeDefinition>
+          <storageType
+          typeSystem="Microsoft SQL Server 2019">char(10)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0-30 cm</code>
+                    <definition>mineral soil layer 0 to 30 cm depth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>30-60 cm</code>
+                    <definition>mineral soil layer 30 to 60 cm depth</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03601.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>measurement date</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum
+                    exclusive="false">8/16/2016 12:00:00 AM</minimum>
+                  <maximum
+          exclusive="false">10/15/2017 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03601.VWC">
+          <attributeName>VWC</attributeName>
+          <attributeDefinition>volumetric water content</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(5,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic centimeters per cubic centimeter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0950</minimum>
+                  <maximum
+        exclusive="false">0.6120</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint
+        id="sp03601.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>sp03601.DATE</attributeReference>
+            <attributeReference>sp03601.LAYER</attributeReference>
+            <attributeReference>sp03601.REP</attributeReference>
+            <attributeReference>sp03601.SITE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint
+      id="sp03601.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>sp03601.DATE</attributeReference>
+            <attributeReference>sp03601.DBCODE</attributeReference>
+            <attributeReference>sp03601.ENTITY</attributeReference>
+            <attributeReference>sp03601.LAYER</attributeReference>
+            <attributeReference>sp03601.REP</attributeReference>
+            <attributeReference>sp03601.SITE</attributeReference>
+            <attributeReference>sp03601.VWC</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>2710</numberOfRecords>
+    </dataTable>
+    <dataTable
+          id="sp03602">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>sp03602</entityName>
+      <entityDescription>Soil physical properties: </entityDescription>
+      <physical>
+        <objectName>sp03602.csv</objectName>
+        <size
+          unit="byte">1712</size>
+        <authentication
+              method="MD5">52382af14ba6c5a71f758f87e304278c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5488/2/2c8e2d10a1299ccd3aae6c35ec3860ff</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2017-07-18</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2017-09-13</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute
+            id="sp03602.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database Code</attributeDefinition>
+          <storageType
+          typeSystem="Microsoft SQL Server 2019">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SP036</code>
+                    <definition>FSDB Database Study Code</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">2.0000</minimum>
+                  <maximum
+          exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.SITE">
+          <attributeName>SITE</attributeName>
+          <attributeDefinition>site name</attributeDefinition>
+          <storageType
+          typeSystem="Microsoft SQL Server 2019">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AR2</code>
+                    <definition>Watershed 1 soil moisture network transect A, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AR3</code>
+                    <definition>Watershed 1 soil moisture network transect A, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR1</code>
+                    <definition>Watershed 1 soil moisture network transect C, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR2</code>
+                    <definition>Watershed 1 soil moisture network transect C, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR3</code>
+                    <definition>Watershed 1 soil moisture network transect C, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DH0</code>
+                    <definition>Watershed 1 soil moisture network transect D, hollow, plot 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DH1</code>
+                    <definition>Watershed 1 soil moisture network transect D, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DH2</code>
+                    <definition>Watershed 1 soil moisture network transect D, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ER1</code>
+                    <definition>Watershed 1 soil moisture network transect E, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ER2</code>
+                    <definition>Watershed 1 soil moisture network transect E, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ER3</code>
+                    <definition>Watershed 1 soil moisture network transect E, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FH0</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FH1</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ1</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ1T</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, tree plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ2</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ2T</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, tree plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ3</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ3T</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, tree plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ4</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ5</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ6</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GR2</code>
+                    <definition>Watershed 1 soil moisture network transect G, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GR3</code>
+                    <definition>Watershed 1 soil moisture network transect G, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GZ1</code>
+                    <definition>Watershed 1 soil moisture network transect G, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GZ2</code>
+                    <definition>Watershed 1 soil moisture network transect G, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GZ3</code>
+                    <definition>Watershed 1 soil moisture network transect G, hollow, plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH1</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH2</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH3</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH4</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH5</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR1</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR2</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR3</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR4</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JH0</code>
+                    <definition>Watershed 1 soil moisture network transect J, hollow, plot 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JH1</code>
+                    <definition>Watershed 1 soil moisture network transect J, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JH2</code>
+                    <definition>Watershed 1 soil moisture network transect J, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH1</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH2</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH3</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH4</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH5</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ1</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ1T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ2</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ2T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ3</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ3T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ4</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ4T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ5</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ5T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ6</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ6T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ7</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ7T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR1</code>
+                    <definition>Watershed 1 soil moisture network transect M, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR2</code>
+                    <definition>Watershed 1 soil moisture network transect M, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR3</code>
+                    <definition>Watershed 1 soil moisture network transect M, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MZ1</code>
+                    <definition>Watershed 1 soil moisture network transect M, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MZ2</code>
+                    <definition>Watershed 1 soil moisture network transect M, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MZ3</code>
+                    <definition>Watershed 1 soil moisture network transect M, hollow, plot Z3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.DEPTH">
+          <attributeName>DEPTH</attributeName>
+          <attributeDefinition>mineral soil depth</attributeDefinition>
+          <storageType
+          typeSystem="Microsoft SQL Server 2019">char(4)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>15cm</code>
+                    <definition>soil core taken at 15 to 20 cm depth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>45cm</code>
+                    <definition>soil core taken at 45 to 50 cm depth</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.BULK_DENSITY">
+          <attributeName>BULK_DENSITY</attributeName>
+          <attributeDefinition>bulk density</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic centimeters per cubic centimeter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.8800</minimum>
+                  <maximum
+          exclusive="false">1.2900</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.COARSE">
+          <attributeName>COARSE</attributeName>
+          <attributeDefinition>gravimetric coarse content</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">35.6700</minimum>
+                  <maximum
+          exclusive="false">80.3300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.SAND">
+          <attributeName>SAND</attributeName>
+          <attributeDefinition>sand content</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">1.9600</minimum>
+                  <maximum
+          exclusive="false">26.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.SILT">
+          <attributeName>SILT</attributeName>
+          <attributeDefinition>silt content</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">43.5400</minimum>
+                  <maximum
+          exclusive="false">56.9700</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.CLAY">
+          <attributeName>CLAY</attributeName>
+          <attributeDefinition>clay content</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">29.3400</minimum>
+                  <maximum
+          exclusive="false">45.0900</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.VWC_FC">
+          <attributeName>VWC_FC</attributeName>
+          <attributeDefinition>volumetric water content at -33 kPa</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic centimeters per cubic centimeter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.1600</minimum>
+                  <maximum
+          exclusive="false">0.3000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.VWC_TURGORLOSS">
+          <attributeName>VWC_TURGORLOSS</attributeName>
+          <attributeDefinition>volumetric water content at -2500 kPa</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic centimeters per cubic centimeter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.1000</minimum>
+                  <maximum
+          exclusive="false">0.2100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03602.KSAT">
+          <attributeName>KSAT</attributeName>
+          <attributeDefinition>saturated hydraulic conductivity</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(5,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters per hour</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">46.6000</minimum>
+                  <maximum
+        exclusive="false">509.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint
+        id="sp03602.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>sp03602.DEPTH</attributeReference>
+            <attributeReference>sp03602.SITE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint
+      id="sp03602.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>sp03602.BULK_DENSITY</attributeReference>
+            <attributeReference>sp03602.CLAY</attributeReference>
+            <attributeReference>sp03602.COARSE</attributeReference>
+            <attributeReference>sp03602.DBCODE</attributeReference>
+            <attributeReference>sp03602.DEPTH</attributeReference>
+            <attributeReference>sp03602.ENTITY</attributeReference>
+            <attributeReference>sp03602.KSAT</attributeReference>
+            <attributeReference>sp03602.SAND</attributeReference>
+            <attributeReference>sp03602.SILT</attributeReference>
+            <attributeReference>sp03602.SITE</attributeReference>
+            <attributeReference>sp03602.VWC_FC</attributeReference>
+            <attributeReference>sp03602.VWC_TURGORLOSS</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>26</numberOfRecords>
+    </dataTable>
+    <dataTable
+          id="sp03603">
+      <alternateIdentifier>3</alternateIdentifier>
+      <entityName>sp03603</entityName>
+      <entityDescription>Total soil depth to bedrock: </entityDescription>
+      <physical>
+        <objectName>sp03603.csv</objectName>
+        <size
+          unit="byte">2488</size>
+        <authentication
+              method="MD5">75aae0912f4a52f19a48a21763135850</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5488/2/2018f315abaaeca8b481c27571468a38</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2017-07-18</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2017-09-13</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute
+            id="sp03603.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database Code</attributeDefinition>
+          <storageType
+          typeSystem="Microsoft SQL Server 2019">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SP036</code>
+                    <definition>FSDB Database Study Code</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03603.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">3.0000</minimum>
+                  <maximum
+          exclusive="false">3.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03603.SITE">
+          <attributeName>SITE</attributeName>
+          <attributeDefinition>site name</attributeDefinition>
+          <storageType
+          typeSystem="Microsoft SQL Server 2019">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AR2</code>
+                    <definition>Watershed 1 soil moisture network transect A, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AR3</code>
+                    <definition>Watershed 1 soil moisture network transect A, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR1</code>
+                    <definition>Watershed 1 soil moisture network transect C, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR2</code>
+                    <definition>Watershed 1 soil moisture network transect C, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR3</code>
+                    <definition>Watershed 1 soil moisture network transect C, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DH0</code>
+                    <definition>Watershed 1 soil moisture network transect D, hollow, plot 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DH1</code>
+                    <definition>Watershed 1 soil moisture network transect D, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DH2</code>
+                    <definition>Watershed 1 soil moisture network transect D, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ER1</code>
+                    <definition>Watershed 1 soil moisture network transect E, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ER2</code>
+                    <definition>Watershed 1 soil moisture network transect E, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ER3</code>
+                    <definition>Watershed 1 soil moisture network transect E, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FH0</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FH1</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ1</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ1T</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, tree plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ2</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ2T</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, tree plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ3</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ3T</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, tree plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ4</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ5</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FZ6</code>
+                    <definition>Watershed 1 soil moisture network transect F, hollow, plot Z6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GR2</code>
+                    <definition>Watershed 1 soil moisture network transect G, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GR3</code>
+                    <definition>Watershed 1 soil moisture network transect G, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GZ1</code>
+                    <definition>Watershed 1 soil moisture network transect G, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GZ2</code>
+                    <definition>Watershed 1 soil moisture network transect G, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GZ3</code>
+                    <definition>Watershed 1 soil moisture network transect G, hollow, plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH1</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH2</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH3</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH4</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH5</code>
+                    <definition>Watershed 1 soil moisture network transect H, hollow, plot 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR1</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR2</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR3</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IR4</code>
+                    <definition>Watershed 1 soil moisture network transect I, ridge, plot 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JH0</code>
+                    <definition>Watershed 1 soil moisture network transect J, hollow, plot 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JH1</code>
+                    <definition>Watershed 1 soil moisture network transect J, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JH2</code>
+                    <definition>Watershed 1 soil moisture network transect J, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH1</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH2</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH3</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH4</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LH5</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ1</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ1T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ2</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ2T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ3</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ3T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ4</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ4T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ5</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ5T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ6</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ6T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ7</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, plot Z7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LZ7T</code>
+                    <definition>Watershed 1 soil moisture network transect L, hollow, tree plot Z7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR1</code>
+                    <definition>Watershed 1 soil moisture network transect M, ridge, plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR2</code>
+                    <definition>Watershed 1 soil moisture network transect M, ridge, plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR3</code>
+                    <definition>Watershed 1 soil moisture network transect M, ridge, plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MZ1</code>
+                    <definition>Watershed 1 soil moisture network transect M, hollow, plot Z1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MZ2</code>
+                    <definition>Watershed 1 soil moisture network transect M, hollow, plot Z2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MZ3</code>
+                    <definition>Watershed 1 soil moisture network transect M, hollow, plot Z3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03603.REP">
+          <attributeName>REP</attributeName>
+          <attributeDefinition>replicate</attributeDefinition>
+          <storageType
+          typeSystem="Microsoft SQL Server 2019">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>first replicate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>second replicate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>third replicate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>fourth replicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03603.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>measurement date</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum
+                    exclusive="false">7/18/2017 12:00:00 AM</minimum>
+                  <maximum
+          exclusive="false">9/13/2017 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute
+            id="sp03603.MAX_DEPTH">
+          <attributeName>MAX_DEPTH</attributeName>
+          <attributeDefinition>total depth to bedrock if less than 5.15 m</attributeDefinition>
+          <storageType
+                    typeSystem="Microsoft SQL Server 2019">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.1000</minimum>
+                  <maximum
+        exclusive="false">5.1500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint
+        id="sp03603.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>sp03603.DATE</attributeReference>
+            <attributeReference>sp03603.REP</attributeReference>
+            <attributeReference>sp03603.SITE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint
+          id="sp03603.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>sp03603.DATE</attributeReference>
+            <attributeReference>sp03603.DBCODE</attributeReference>
+            <attributeReference>sp03603.ENTITY</attributeReference>
+            <attributeReference>sp03603.MAX_DEPTH</attributeReference>
+            <attributeReference>sp03603.REP</attributeReference>
+            <attributeReference>sp03603.SITE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>79</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit
+          abbreviation="cm/hr" id="centimeters per hour"
+          name="centimeterPerHour" parentSI="meterPerSecond"
+          unitType="speed">
+          <stmml:description>centimeters per hour</stmml:description>
+        </stmml:unit>
+        <stmml:unit
+          abbreviation="%" id="percent" multiplierToSI="100"
+          name="number" parentSI="dimensionless"
+          unitType="dimensionless">
+          <stmml:description>percent; a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit
+          abbreviation="cm3/cm3"
+          id="cubic centimeters per cubic centimeter" multiplierToSI="1"
+          name="centimeterCubedPerCentimeterCubed"
+          parentSI="centimeterCubed PerCentimeterCubed"
+          unitType="volumePerVolume">
+          <stmml:description>cubic centimeters per cubic centimeter</stmml:description>
+        </stmml:unit>
+        <stmml:unit
+          abbreviation="m" id="meters" multiplierToSI="1" name="meter"
+          parentSI="meter"
+          unitType="length">
+          <stmml:description>meter; SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit
+          abbreviation="number" id="number" multiplierToSI="1"
+          name="number" parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

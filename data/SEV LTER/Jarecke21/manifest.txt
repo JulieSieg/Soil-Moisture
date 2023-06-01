@@ -1,0 +1,7 @@
+Manifest file for knb-lter-and.5488.2.zip created on Thu Jun 01 21:00:58 UTC 2023
+sp03601.csv (115067 bytes)
+sp03602.csv (1712 bytes)
+sp03603.csv (2488 bytes)
+knb-lter-and.5488.2.xml (149930 bytes)
+knb-lter-and.5488.2.txt (79802 bytes)
+knb-lter-and.5488.2.report.xml (67119 bytes)
