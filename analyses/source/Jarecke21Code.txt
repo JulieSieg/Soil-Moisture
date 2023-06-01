@@ -1,0 +1,208 @@
+#Analysis code for SEV LTER Jarecke21 dataset downloaded from SEV LTER 
+
+# Package ID: knb-lter-and.5488.2 Cataloging System:https://pasta.edirepository.org.
+# Data set title: Soil moisture and soil properties in Watershed 1 of the HJ Andrews Experimental Forest, 2016â2020.
+# Data set creator:  Karla Jarecke -  
+# Data set creator:  Steven Wondzell -  
+# Data set creator:  Kevin Bladon -  
+# Contact:    - Information Manager   - hjaweb@fsl.orst.edu
+# Stylesheet v2.11 for metadata conversion into program: John H. Porter, Univ. Virginia, jporter@virginia.edu 
+
+inUrl1  <- "https://pasta.lternet.edu/package/data/eml/knb-lter-and/5488/2/05bdaee022fac0db90d6ec2112c65875" 
+infile1 <- tempfile()
+try(download.file(inUrl1,infile1,method="curl"))
+if (is.na(file.size(infile1))) download.file(inUrl1,infile1,method="auto")
+
+                   
+ dt1 <-read.csv(infile1,header=F 
+          ,skip=1
+            ,sep=","  
+                ,quot='"' 
+        , col.names=c(
+                    "DBCODE",     
+                    "ENTITY",     
+                    "SITE",     
+                    "REP",     
+                    "LAYER",     
+                    "DATE",     
+                    "VWC"    ), check.names=TRUE)
+               
+unlink(infile1)
+		    
+# Fix any interval or ratio columns mistakenly read in as nominal and nominal columns read as numeric or dates read as strings
+                
+if (class(dt1$DBCODE)!="factor") dt1$DBCODE<- as.factor(dt1$DBCODE)
+if (class(dt1$ENTITY)=="factor") dt1$ENTITY <-as.numeric(levels(dt1$ENTITY))[as.integer(dt1$ENTITY) ]               
+if (class(dt1$ENTITY)=="character") dt1$ENTITY <-as.numeric(dt1$ENTITY)
+if (class(dt1$SITE)!="factor") dt1$SITE<- as.factor(dt1$SITE)
+if (class(dt1$REP)!="factor") dt1$REP<- as.factor(dt1$REP)
+if (class(dt1$LAYER)!="factor") dt1$LAYER<- as.factor(dt1$LAYER)                                   
+# attempting to convert dt1$DATE dateTime string to R date structure (date or POSIXct)                                
+tmpDateFormat<-"%Y-%m-%d"
+tmp1DATE<-as.Date(dt1$DATE,format=tmpDateFormat)
+# Keep the new dates only if they all converted correctly
+if(length(tmp1DATE) == length(tmp1DATE[!is.na(tmp1DATE)])){dt1$DATE <- tmp1DATE } else {print("Date conversion failed for dt1$DATE. Please inspect the data and do the date conversion yourself.")}                                                                    
+rm(tmpDateFormat,tmp1DATE) 
+if (class(dt1$VWC)=="factor") dt1$VWC <-as.numeric(levels(dt1$VWC))[as.integer(dt1$VWC) ]               
+if (class(dt1$VWC)=="character") dt1$VWC <-as.numeric(dt1$VWC)
+                
+# Convert Missing Values to NA for non-dates
+                
+
+
+# Here is the structure of the input data frame:
+str(dt1)                            
+attach(dt1)                            
+# The analyses below are basic descriptions of the variables. After testing, they should be replaced.                 
+
+summary(DBCODE)
+summary(ENTITY)
+summary(SITE)
+summary(REP)
+summary(LAYER)
+summary(DATE)
+summary(VWC) 
+                # Get more details on character variables
+                 
+summary(as.factor(dt1$DBCODE)) 
+summary(as.factor(dt1$SITE)) 
+summary(as.factor(dt1$REP)) 
+summary(as.factor(dt1$LAYER))
+detach(dt1)               
+         
+
+inUrl2  <- "https://pasta.lternet.edu/package/data/eml/knb-lter-and/5488/2/2c8e2d10a1299ccd3aae6c35ec3860ff" 
+infile2 <- tempfile()
+try(download.file(inUrl2,infile2,method="curl"))
+if (is.na(file.size(infile2))) download.file(inUrl2,infile2,method="auto")
+
+                   
+ dt2 <-read.csv(infile2,header=F 
+          ,skip=1
+            ,sep=","  
+                ,quot='"' 
+        , col.names=c(
+                    "DBCODE",     
+                    "ENTITY",     
+                    "SITE",     
+                    "DEPTH",     
+                    "BULK_DENSITY",     
+                    "COARSE",     
+                    "SAND",     
+                    "SILT",     
+                    "CLAY",     
+                    "VWC_FC",     
+                    "VWC_TURGORLOSS",     
+                    "KSAT"    ), check.names=TRUE)
+               
+unlink(infile2)
+		    
+# Fix any interval or ratio columns mistakenly read in as nominal and nominal columns read as numeric or dates read as strings
+                
+if (class(dt2$DBCODE)!="factor") dt2$DBCODE<- as.factor(dt2$DBCODE)
+if (class(dt2$ENTITY)=="factor") dt2$ENTITY <-as.numeric(levels(dt2$ENTITY))[as.integer(dt2$ENTITY) ]               
+if (class(dt2$ENTITY)=="character") dt2$ENTITY <-as.numeric(dt2$ENTITY)
+if (class(dt2$SITE)!="factor") dt2$SITE<- as.factor(dt2$SITE)
+if (class(dt2$BULK_DENSITY)=="factor") dt2$BULK_DENSITY <-as.numeric(levels(dt2$BULK_DENSITY))[as.integer(dt2$BULK_DENSITY) ]               
+if (class(dt2$BULK_DENSITY)=="character") dt2$BULK_DENSITY <-as.numeric(dt2$BULK_DENSITY)
+if (class(dt2$COARSE)=="factor") dt2$COARSE <-as.numeric(levels(dt2$COARSE))[as.integer(dt2$COARSE) ]               
+if (class(dt2$COARSE)=="character") dt2$COARSE <-as.numeric(dt2$COARSE)
+if (class(dt2$SAND)=="factor") dt2$SAND <-as.numeric(levels(dt2$SAND))[as.integer(dt2$SAND) ]               
+if (class(dt2$SAND)=="character") dt2$SAND <-as.numeric(dt2$SAND)
+if (class(dt2$SILT)=="factor") dt2$SILT <-as.numeric(levels(dt2$SILT))[as.integer(dt2$SILT) ]               
+if (class(dt2$SILT)=="character") dt2$SILT <-as.numeric(dt2$SILT)
+if (class(dt2$CLAY)=="factor") dt2$CLAY <-as.numeric(levels(dt2$CLAY))[as.integer(dt2$CLAY) ]               
+if (class(dt2$CLAY)=="character") dt2$CLAY <-as.numeric(dt2$CLAY)
+if (class(dt2$VWC_FC)=="factor") dt2$VWC_FC <-as.numeric(levels(dt2$VWC_FC))[as.integer(dt2$VWC_FC) ]               
+if (class(dt2$VWC_FC)=="character") dt2$VWC_FC <-as.numeric(dt2$VWC_FC)
+if (class(dt2$VWC_TURGORLOSS)=="factor") dt2$VWC_TURGORLOSS <-as.numeric(levels(dt2$VWC_TURGORLOSS))[as.integer(dt2$VWC_TURGORLOSS) ]               
+if (class(dt2$VWC_TURGORLOSS)=="character") dt2$VWC_TURGORLOSS <-as.numeric(dt2$VWC_TURGORLOSS)
+if (class(dt2$KSAT)=="factor") dt2$KSAT <-as.numeric(levels(dt2$KSAT))[as.integer(dt2$KSAT) ]               
+if (class(dt2$KSAT)=="character") dt2$KSAT <-as.numeric(dt2$KSAT)
+                
+# Convert Missing Values to NA for non-dates
+                
+
+
+# Here is the structure of the input data frame:
+str(dt2)                            
+attach(dt2)                            
+# The analyses below are basic descriptions of the variables. After testing, they should be replaced.                 
+
+summary(DBCODE)
+summary(ENTITY)
+summary(SITE)
+summary(DEPTH)
+summary(BULK_DENSITY)
+summary(COARSE)
+summary(SAND)
+summary(SILT)
+summary(CLAY)
+summary(VWC_FC)
+summary(VWC_TURGORLOSS)
+summary(KSAT) 
+                # Get more details on character variables
+                 
+summary(as.factor(dt2$DBCODE)) 
+summary(as.factor(dt2$SITE)) 
+summary(as.factor(dt2$DEPTH))
+detach(dt2)               
+         
+
+inUrl3  <- "https://pasta.lternet.edu/package/data/eml/knb-lter-and/5488/2/2018f315abaaeca8b481c27571468a38" 
+infile3 <- tempfile()
+try(download.file(inUrl3,infile3,method="curl"))
+if (is.na(file.size(infile3))) download.file(inUrl3,infile3,method="auto")
+
+                   
+ dt3 <-read.csv(infile3,header=F 
+          ,skip=1
+            ,sep=","  
+                ,quot='"' 
+        , col.names=c(
+                    "DBCODE",     
+                    "ENTITY",     
+                    "SITE",     
+                    "REP",     
+                    "DATE",     
+                    "MAX_DEPTH"    ), check.names=TRUE)
+               
+unlink(infile3)
+		    
+# Fix any interval or ratio columns mistakenly read in as nominal and nominal columns read as numeric or dates read as strings
+                
+if (class(dt3$DBCODE)!="factor") dt3$DBCODE<- as.factor(dt3$DBCODE)
+if (class(dt3$ENTITY)=="factor") dt3$ENTITY <-as.numeric(levels(dt3$ENTITY))[as.integer(dt3$ENTITY) ]               
+if (class(dt3$ENTITY)=="character") dt3$ENTITY <-as.numeric(dt3$ENTITY)
+if (class(dt3$SITE)!="factor") dt3$SITE<- as.factor(dt3$SITE)
+if (class(dt3$REP)!="factor") dt3$REP<- as.factor(dt3$REP)                                   
+# attempting to convert dt3$DATE dateTime string to R date structure (date or POSIXct)                                
+tmpDateFormat<-"%Y-%m-%d"
+tmp3DATE<-as.Date(dt3$DATE,format=tmpDateFormat)
+# Keep the new dates only if they all converted correctly
+if(length(tmp3DATE) == length(tmp3DATE[!is.na(tmp3DATE)])){dt3$DATE <- tmp3DATE } else {print("Date conversion failed for dt3$DATE. Please inspect the data and do the date conversion yourself.")}                                                                    
+rm(tmpDateFormat,tmp3DATE) 
+if (class(dt3$MAX_DEPTH)=="factor") dt3$MAX_DEPTH <-as.numeric(levels(dt3$MAX_DEPTH))[as.integer(dt3$MAX_DEPTH) ]               
+if (class(dt3$MAX_DEPTH)=="character") dt3$MAX_DEPTH <-as.numeric(dt3$MAX_DEPTH)
+                
+# Convert Missing Values to NA for non-dates
+                
+
+
+# Here is the structure of the input data frame:
+str(dt3)                            
+attach(dt3)                            
+# The analyses below are basic descriptions of the variables. After testing, they should be replaced.                 
+
+summary(DBCODE)
+summary(ENTITY)
+summary(SITE)
+summary(REP)
+summary(DATE)
+summary(MAX_DEPTH) 
+                # Get more details on character variables
+                 
+summary(as.factor(dt3$DBCODE)) 
+summary(as.factor(dt3$SITE)) 
+summary(as.factor(dt3$REP))
+detach(dt3)
