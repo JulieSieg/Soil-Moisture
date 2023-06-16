@@ -1,4 +1,5 @@
-#Data from Andrus22 
+#Data from Gosz16
+#Time Domain Reflectometry at the Sevilleta National Wildlife Refuge, New Mexico (1996-2005)
 
 #Soil moisture continuous
 
@@ -40,13 +41,11 @@ dat_sep <- dat_sep[-1, ]
 #  mutate_all(as.numeric)   # this line of code caused the date conversion to fail 
 
 
-
 #check on all of the variables
 summary(dat_sep)
 
 
 #### Convert Julian date and hour to POSIXct
-# Convert Julian date and hour to POSIXct
 dat_sep$Jul_Day <- as.numeric(dat_sep$Jul_Day)
 dat_sep$Hour <- as.numeric(dat_sep$Hour)
 dat_sep$Year <- as.numeric(dat_sep$Year)
@@ -72,9 +71,9 @@ dat_sep <- dat_sep %>%
   mutate_all(~replace(., . == -999, NA))
 
 
-#need to subset by station too! 
-unique(dat_sep$Station_ID)
-# "40" "44" "1"  "41" "45" "43" "42"
+# check the number of stations/sites 
+# unique(dat_sep$Station_ID)
+
 
 
 ### Experiment with subsetting the df
@@ -89,6 +88,8 @@ df_w2 <- dat_sep[, grepl("w2|datetime|Year|Station_ID", names(dat_sep))]
 df_w3 <- dat_sep[, grepl("w3|datetime|Year|Station_ID", names(dat_sep))]
 
 
+
+#set up plotting function 
 
 plotData <- function(d,y){ #d = subsetted data for that year, y = year #
   
@@ -142,8 +143,10 @@ plotData <- function(d,y){ #d = subsetted data for that year, y = year #
   # Save combined_plots as PNG
   ggsave(paste("plots_w3", y,".png"), plot = combined_plots, width = 10, height = 8, dpi = 300)
   
-}}
+  }}
 
+
+# create a for loop to plot each year seperately using the plotting function 
 for (year in unique(df_w3$Year)){
   
   subset_year <- subset(df_w3, Year == year) 
