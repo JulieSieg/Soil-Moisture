@@ -12,6 +12,7 @@ library(lubridate)
 library(dplyr)
 library(tidyr)
 library(patchwork)
+library(cowplot)
 
 #set working directory
 rm(list=ls(all=TRUE))
@@ -19,9 +20,6 @@ path <- 'C:/Users/julie/Documents/Soil Moisture/Gosz16'
 
 setwd(path)
 getwd()
-
-#### info about the dataset:
-
 
 ###### make a dataframe
 #get the downloaded data - it is in txt format - write as a data frame, split each variable into its own column
@@ -88,8 +86,10 @@ df_w2 <- dat_sep[, grepl("w2|datetime|Year|Station_ID", names(dat_sep))]
 df_w3 <- dat_sep[, grepl("w3|datetime|Year|Station_ID", names(dat_sep))]
 
 
+### Create plots of all stations per year
+# The for loop cycles through the data 
 
-#set up plotting function 
+#set up a for loop that calls the plotdata function so as to create a new plot for each year
 
 plotData <- function(d,y){ #d = subsetted data for that year, y = year #
   
@@ -156,4 +156,143 @@ for (year in unique(df_w3$Year)){
 }
 
 
+### Create plots of just Station 40 showing each year 
+# subset df_w1
 
+w1_40 <- df_w1[which(df_w1$Station_ID == "40"),]
+
+
+plotStation40 <- function(d){ #d = subsetted data for that year, y = year #
+  
+  # Convert datetime to POSIXct format
+  d$datetime <- as.POSIXct(d$datetime)
+  
+  ## make all the values be in one column (long data > wide data)
+  long_data <- gather(d, depth, value, -datetime, - Year, -Station_ID)
+  long_data$value <- as.numeric(long_data$value)
+  long_data$Year <- as.numeric(long_data$Year)
+  
+  #View(long_data)
+  
+  # Create an empty list to store the plots
+  plots <- list()
+  
+  # Iterate through the Station IDs 
+  for (year in unique(long_data$Year)) {
+    
+      # Subset the data for the current year
+      subset_data <- subset(long_data, Year == year)
+      
+      # Check if the subset data has enough date range
+      # Check if the subset data has enough data points
+      if (nrow(subset_data) < 2) {
+        warning(paste("Insufficient data in year", year, ". Skipping plot generation."))
+        next  # Skip to the next iteration
+      }
+      
+      # Create the plot for the current year
+      plot <- ggplot(subset_data, aes(x = datetime, y = value, color = factor(depth))) +
+        geom_point(size = 0.2, na.rm = TRUE) +
+        labs(x = "time", y = "Soil Moisture", color = "depth (cm)", title = paste(year)) +
+        scale_color_discrete(labels = c("30", "5", "10", "20", "40")) +
+        guides(color = guide_legend(override.aes = list(size = 3))) +
+        theme_minimal() + 
+        scale_x_datetime(date_labels = "%b") + 
+        scale_y_continuous(limits = c(0.0, 0.3))
+      
+      # Add the plot to the list
+      plots[[as.character(year)]] <- plot
+      
+    }
+  
+    # Combine the plots using patchwork and add a common legend
+    #combined_plots <- plot_grid(plotlist = plots, nrow = 2, ncol = 5)  
+    combined_plots <- wrap_plots(plots, nrow = 3, ncol = 4)
+    combined_plots <- combined_plots + plot_layout(guides = 'collect')
+    
+    # Add a title to the combined plots
+    combined_plots <- combined_plots + plot_annotation(title = paste("Soil Moisture in SEV LTER (Pit A) Station 40"),
+                                                       theme = theme(plot.title = element_text(hjust = 0.5)))
+    print(combined_plots)
+    
+    # Save combined_plots as PNG
+    ggsave(paste("plots_w1byYear.png"), plot = combined_plots, width = 12, height = 8, dpi = 300)
+    
+  }
+
+plotStation40(w1_40)
+
+
+### make a plot of the data meaned across the depths
+
+## make all the values be in one column (long data > wide data)
+w1_40 <- gather(w1_40, depth, value, -datetime, - Year, -Station_ID)
+w1_40$value <- as.numeric(w1_40$value)
+w1_40$Year <- as.numeric(w1_40$Year)
+
+split_df <- w1_40 %>%
+  separate(depth, into = c("w1", "depth"), sep = "_", convert = TRUE)
+
+split_df$value[which(split_df$value == "NaN")] <- NA
+
+mean_df <- split_df %>%
+  group_by(datetime, Year, Station_ID) %>%
+  summarize(mean_value = mean(value, na.rm = TRUE))
+
+plotMean <- function(d){ 
+  
+  # Convert datetime to POSIXct format
+  d$datetime <- as.POSIXct(d$datetime)
+
+  # Create an empty list to store the plots
+  plots <- list()
+  
+  # Iterate through the Station IDs 
+  for (year in unique(d$Year)) {
+    
+    # Subset the data for the current year
+    subset_data <- subset(d, Year == year)
+    
+    # Check if the subset data has enough date range
+    # Check if the subset data has enough data points
+    if (nrow(subset_data) < 2) {
+      warning(paste("Insufficient data in year", year, ". Skipping plot generation."))
+      next  # Skip to the next iteration
+    }
+    
+    # Create the plot for the current year
+    plot <- ggplot(subset_data, aes(x = datetime, y = mean_value)) +
+      geom_point(size = 0.2, na.rm = TRUE, color =  "#3366CC") +
+      labs(x = "time", y = "Soil Moisture", title = paste(year)) +
+      guides(color = guide_legend(override.aes = list(size = 3))) +
+      theme_minimal() + 
+      scale_x_datetime(date_labels = "%b") + 
+      scale_y_continuous(limits = c(0.0, 0.3))
+    
+    # Add the plot to the list
+    plots[[as.character(year)]] <- plot
+    
+  }
+  
+  # Combine the plots using patchwork and add a common legend
+  #combined_plots <- plot_grid(plotlist = plots, nrow = 2, ncol = 5)  
+  combined_plots <- wrap_plots(plots, nrow = 3, ncol = 4)
+  combined_plots <- combined_plots + plot_layout(guides = 'collect')
+  
+  # Add a title to the combined plots
+  combined_plots <- combined_plots + plot_annotation(title = paste("Mean Soil Moisture in SEV LTER (Pit A) Station 40"),
+                                                     theme = theme(plot.title = element_text(hjust = 0.5)))
+ 
+  # Save combined_plots as PNG
+  ggsave(paste("MeanPlots_w1byYear.png"), plot = combined_plots, width = 12, height = 8, dpi = 300)
+  
+  
+  
+}
+
+plotMean(mean_df)
+#stacked_df <- dat_sep %>%
+#  gather(key, value, starts_with("w")) %>%
+#  separate(key, into = c("source", "depth"), sep = "_") %>%
+#  mutate(depth = as.numeric(depth)) %>%
+#  arrange(source, depth)
